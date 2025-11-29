@@ -16,8 +16,8 @@ SAVE_MODEL_PATH = "results/model_physics_tuned.pth"
 LOG_CSV = "results/physics_training_log.csv"
 
 # strong physics influence
-LAMBDA_K = 100.0
-LAMBDA_POROSITY = 100.0
+LAMBDA_K = 5000.0
+LAMBDA_POROSITY = 5000.0
 num_epochs = 100
 
 TARGETS = {
@@ -75,11 +75,13 @@ def train_physics_informed():
     for f in os.listdir(DATA_DIR):
         if f.lower().endswith((".png", ".jpg", ".jpeg")):
             img = transform(Image.open(os.path.join(DATA_DIR, f)))
+            # 🧠 Normalize pixel range per image
+            img = (img - img.min()) / (img.max() - img.min() + 1e-8)
             imgs.append(img)
     imgs = torch.stack(imgs)
     print(f"🧩 Loaded {len(imgs)} generated structures.")
 
-    num_epochs = 10
+    num_epochs = 100
     if os.path.exists(LOG_CSV):
         os.remove(LOG_CSV)
     with open(LOG_CSV, "w", newline="") as f:
