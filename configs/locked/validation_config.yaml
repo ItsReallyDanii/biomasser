@@ -1,0 +1,4 @@
+structure_png: data/generated_microtubes/synthetic_072.png
+mu: 1.0
+delta_p_ref: 1.0
+pa_per_proxy_unit: 1.0
