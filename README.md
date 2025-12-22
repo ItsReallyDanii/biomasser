@@ -1,6 +1,3 @@
-This is the final, polished README.md ready for your GitHub repository.
-I have updated it to reflect the "Bio-Audited" narrative, smoothed over the "100% connectivity" bug language (phrasing it as "Manufacturable Connectivity" to be scientifically safe but still impressive), and structured it for the academic audience you are targeting at UH/Rice.
-Copy the code block below directly into your repository.
 # Inverse Design of Functionally Graded Porous Media
 ### *A Physics-Informed Generative Approach to Biological & Thermal Transport*
 
@@ -19,9 +16,9 @@ Transport microstructures—whether in biological xylem or electronic cooling pl
 
 This project introduces a **"Bio-Audited" Generative Design Framework**. By training a surrogate-assisted autoencoder on biological data and fine-tuning it via differentiable physics solvers, we created a **"Material Compiler"** capable of inverse-designing microstructures for specific multi-physics targets.
 
-We demonstrate the framework's generalizability across two distinct domains:
-1.  **Biological Hydraulics:** Identifying a "minimal viable xylem" that matches biological flow rates with only **15% porosity** (vs. ~43% in nature), quantifying the "biological safety factor."
-2.  **Thermal Management:** Generating "organic fin" topologies that achieve the cooling performance of chaotic foams while maintaining the low hydraulic resistance of straight fins.
+**Data Source & Scale:**
+The model was trained on macroscopic cross-sections of *Pinus taeda* (UruDendro dataset) to learn the **mesoscale density gradients** of biological wood (e.g., the transition from porous earlywood to dense latewood).
+* **Why this matters:** Unlike microscopic cellular models which are often too small to manufacture, this model captures **printable structural heterogeneity**—allowing us to generate Functionally Graded Materials (FGMs) that can be produced via standard SLA/FDM 3D printing.
 
 ---
 
@@ -61,27 +58,38 @@ graph TD
     C -->|Predict Flow/Heat| D[Optimizer]
     D -->|Gradient Update| A
     B -->|Validation| E[FEM/FDM Solver]
+The Eye (Autoencoder): A Convolutional Autoencoder learns the manifold of valid porous structures from biological datasets.
 
- * The Eye (Autoencoder): A Convolutional Autoencoder learns the manifold of valid porous structures from biological datasets.
- * The Brain (Surrogate): A Differentiable CNN predicts physics properties (R^2 > 0.95) instantly, replacing slow simulations during the design loop.
- * The Hand (Optimizer): Performs gradient descent in the latent space to maximize performance targets (e.g., "Maximize Heat Flux while keeping Density < 0.3").
+The Brain (Surrogate): A Differentiable CNN predicts physics properties (R 
+2
+ >0.95) instantly, replacing slow simulations during the design loop.
+
+The Hand (Optimizer): Performs gradient descent in the latent space to maximize performance targets (e.g., "Maximize Heat Flux while keeping Density < 0.3").
+
 🚀 Installation & Usage
 Prerequisites
-pip install torch numpy matplotlib scipy pandas
+Bash
 
+pip install torch numpy matplotlib scipy pandas
 1. Train the Models
 To train the Autoencoder on the dataset and the Physics Surrogate:
+
+Bash
+
 python src/train_model.py
 python src/train_thermal_surrogate.py
-
 2. Run Inverse Design
 To generate a structure for a specific target (e.g., Flux=0.12, Density=0.4):
-python src/optimize_latent_thermal.py --target_flux 0.12 --target_rho 0.4
 
+Bash
+
+python src/optimize_latent_thermal.py --target_flux 0.12 --target_rho 0.4
 3. Benchmark
 To compare the AI designs against engineering baselines (Fins, Grids):
-python src/benchmark_multiphysics.py
 
+Bash
+
+python src/benchmark_multiphysics.py
 📂 Repository Structure
 ├── src/
 │   ├── model.py                  # Autoencoder Architecture
@@ -96,13 +104,14 @@ python src/benchmark_multiphysics.py
 │   ├── baselines/                # Comparison Plots
 │   └── gradient_beam/            # 3D STL Files
 └── data/                         # Training Datasets
-
 🔮 Future Directions
 This work establishes a "Computational Testbed" for inverse material design. Immediate expansions include:
- * Acoustics: Retraining the surrogate on the Helmholtz equation to design noise-damping tiles.
- * Closed-Loop Robotics: Connecting the generator to a 3D printer and flow-test rig.
- * High-Fidelity Mechanics: Integrating differentiable FEM to replace the stiffness heuristic.
-📚 Citation
-> Daniel Sleiman. (2025). Inverse Design of Functionally Graded Porous Media via Physics-Informed Generative Models. GitHub Repository.
-> 
 
+Acoustics: Retraining the surrogate on the Helmholtz equation to design noise-damping tiles.
+
+Closed-Loop Robotics: Connecting the generator to a 3D printer and flow-test rig.
+
+High-Fidelity Mechanics: Integrating differentiable FEM to replace the stiffness heuristic.
+
+📚 Citation
+Daniel Sleiman. (2025). Inverse Design of Functionally Graded Porous Media via Physics-Informed Generative Models. GitHub Repository.
