@@ -1,11 +1,8 @@
-datasets:
-  - name: hydraulic_curve_example
-    raw_path: data/raw/hydraulic_curve.csv
+structure_png: data/generated_microtubes/synthetic_072.png
 
-targets:
-  - dp_vs_q
-  - permeability_k
-  - rtd_curve
+inlet: 1.0
+outlet: 0.0
+iterations: 5000
+eps: 1.0e-12
 
-sweep:
-  q_values: [1e-7, 2e-7, 5e-7]
+pa_per_proxy_unit: 1.995857e+10

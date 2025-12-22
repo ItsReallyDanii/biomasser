@@ -1,0 +1,9 @@
+{
+  "scale_pa_per_proxy_unit_fit_on_train": 3984622.785090715,
+  "test_point": {
+    "q_m3_s": 5e-07,
+    "dp_pa": 520,
+    "dp_pa_pred": 500.0
+  },
+  "test_mean_abs_pct_err": 3.8461538461538463
+}

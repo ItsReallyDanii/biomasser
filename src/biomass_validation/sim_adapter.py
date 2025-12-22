@@ -1,72 +1,52 @@
 from __future__ import annotations
+
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict
-import os
 import numpy as np
 
-# Reuse your existing Darcy solver + helpers
-from src.flow_metrics_export import load_image, permeability_map, solve_darcy
+from src.simulate_flow import simulate_pressure_field, compute_conductivity
+from PIL import Image
+
 
 @dataclass
 class SimResult:
     q_m3_s: float
     dp_pa: float
     k_m2: float | None = None
+    dp_proxy: float | None = None
 
-def _pick_structure_png(config: Dict[str, Any]) -> str:
+
+def _load_structure_png(path: Path, size=(256, 256)) -> np.ndarray:
+    img = Image.open(path).convert("L").resize(size)
+    arr = np.asarray(img, dtype=np.float32) / 255.0
+    return arr
+
+
+def run_sim_once(config: dict, q_m3_s: float, out_dir: Path) -> SimResult:
     """
-    Priority:
-      1) config["geometry"]["structure_png"]
-      2) first PNG found in data/generated_microtubes
+    Minimal adapter:
+      1) load a representative structure image
+      2) compute conductivity proxy under unit inlet/outlet pressure
+      3) convert to dp_proxy that scales linearly with q
+      4) convert dp_proxy -> dp_pa via calibration factor
     """
-    geo = config.get("geometry", {}) if isinstance(config.get("geometry", {}), dict) else {}
-    explicit = geo.get("structure_png")
-    if explicit:
-        return explicit
+    structure_path = Path(config["structure_png"])
+    inlet = float(config.get("inlet", 1.0))
+    outlet = float(config.get("outlet", 0.0))
+    iterations = int(config.get("iterations", 5000))
+    eps = float(config.get("eps", 1e-12))
 
-    # default folder used elsewhere in repo
-    folder = Path("data/generated_microtubes")
-    if not folder.exists():
-        raise FileNotFoundError("No structure_png set and data/generated_microtubes not found.")
+    pa_per_proxy_unit = config.get("pa_per_proxy_unit", None)
+    if pa_per_proxy_unit is None:
+        raise ValueError("Missing config key: pa_per_proxy_unit (set this from your fitted scale).")
+    pa_per_proxy_unit = float(pa_per_proxy_unit)
 
-    pngs = sorted([p for p in folder.iterdir() if p.suffix.lower() == ".png"])
-    if not pngs:
-        raise FileNotFoundError("No PNGs found in data/generated_microtubes.")
-    return str(pngs[0])
+    structure = _load_structure_png(structure_path, size=(256, 256))
+    p_field, mask = simulate_pressure_field(structure, inlet=inlet, outlet=outlet, iterations=iterations)
+    cond = float(compute_conductivity(p_field, mask))  # bigger cond => easier flow
 
-def run_sim_once(config: Dict[str, Any], q_m3_s: float, out_dir: str | Path) -> SimResult:
-    """
-    Maps target flowrate -> required delta_p using your Darcy solver:
-      - compute q_ref at delta_p=1
-      - delta_p_needed = q_target / q_ref
-      - rerun solver at delta_p_needed
-    Notes:
-      - dp_pa here is a *proxy* (scaled delta_p). To get real Pa, you'd calibrate to real geometry/units.
-    """
-    out_dir = Path(out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
+    r_proxy = 1.0 / (cond + eps)
+    dp_proxy = float(q_m3_s * r_proxy)
+    dp_pa = float(dp_proxy * pa_per_proxy_unit)
 
-    mu = float(config.get("sim", {}).get("fluid_viscosity_pa_s", 1.0))
-
-    png_path = _pick_structure_png(config)
-    img = load_image(png_path)               # 0..1, resized inside flow_metrics_export
-    k_map = permeability_map(img)
-
-    # 1) Reference run: delta_p = 1
-    p1, vx1, vy1 = solve_darcy(k_map, delta_p=1.0, mu=mu)
-    q_ref = float(np.mean(np.abs(vy1)))
-
-    if q_ref <= 0:
-        raise ValueError("Reference flowrate q_ref is <= 0; structure may be blocked or solver unstable.")
-
-    # 2) Scale delta_p to hit the target flowrate
-    delta_p_needed = float(q_m3_s / q_ref)
-
-    p2, vx2, vy2 = solve_darcy(k_map, delta_p=delta_p_needed, mu=mu)
-
-    # dp proxy: using delta_p directly (unitless until calibrated)
-    dp_pa = delta_p_needed
-
-    mean_k = float(np.mean(k_map))  # proxy for permeability
-    return SimResult(q_m3_s=float(q_m3_s), dp_pa=float(dp_pa), k_m2=mean_k)
+    return SimResult(q_m3_s=q_m3_s, dp_pa=dp_pa, dp_proxy=dp_proxy)
