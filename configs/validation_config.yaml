@@ -1,0 +1,11 @@
+datasets:
+  - name: hydraulic_curve_example
+    raw_path: data/raw/hydraulic_curve.csv
+
+targets:
+  - dp_vs_q
+  - permeability_k
+  - rtd_curve
+
+sweep:
+  q_values: [1e-7, 2e-7, 5e-7]

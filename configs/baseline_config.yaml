@@ -1,0 +1,12 @@
+project: biomasser
+seed: 1337
+
+sim:
+  fluid_viscosity_pa_s: 0.001
+  density_kg_m3: 1000
+
+geometry:
+  sample_id: baseline
+
+outputs:
+  out_dir: outputs
