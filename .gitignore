@@ -25,3 +25,6 @@ outputs/
 # --- envs ---
 .venv/
 env/
+
+# external datasets
+data/external/
