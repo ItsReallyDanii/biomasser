@@ -1,0 +1,1001 @@
+filename,porosity (-),k_md,k_m2
+noisy porous media images/1.png,0.29213,200.65,1.9802616014500003e-13
+noisy porous media images/2.png,0.27317,148.32,1.4638046385600001e-13
+noisy porous media images/3.png,0.25458,124.76,1.23128550908e-13
+noisy porous media images/4.png,0.26347,135.97,1.34191961101e-13
+noisy porous media images/5.png,0.2872,189.36,1.8688379608800003e-13
+noisy porous media images/6.png,0.29455,296.17,2.92297073761e-13
+noisy porous media images/7.png,0.28455,315.64,3.11512470412e-13
+noisy porous media images/8.png,0.24654,144.68,1.4278806304400003e-13
+noisy porous media images/9.png,0.25702,152.87,1.5087096487100003e-13
+noisy porous media images/10.png,0.26551,128.96,1.2727362876800002e-13
+noisy porous media images/11.png,0.29473,183.95,1.81544541035e-13
+noisy porous media images/12.png,0.27012,103.03,1.0168270759900001e-13
+noisy porous media images/13.png,0.25337,149.01,1.47061440933e-13
+noisy porous media images/14.png,0.29905,165.28,1.63118683024e-13
+noisy porous media images/15.png,0.26758,109.16,1.0773254742800001e-13
+noisy porous media images/16.png,0.28136,175.79,1.73491246907e-13
+noisy porous media images/17.png,0.31847,223.49,2.2056748831700002e-13
+noisy porous media images/18.png,0.27484,177.36,1.7504071648800004e-13
+noisy porous media images/19.png,0.26877,121.89,1.2029608103700002e-13
+noisy porous media images/20.png,0.26908,112.05,1.10584755765e-13
+noisy porous media images/21.png,0.25141,149.97,1.48008887301e-13
+noisy porous media images/22.png,0.29262,122.7,1.2109548891000002e-13
+noisy porous media images/23.png,0.24643,141.68,1.39827293144e-13
+noisy porous media images/24.png,0.24171,131.46,1.2974093701800003e-13
+noisy porous media images/25.png,0.28621,195.45,1.92894158985e-13
+noisy porous media images/26.png,0.27552,183.6,1.8119911788000001e-13
+noisy porous media images/27.png,0.43709,855.49,8.44303013917e-13
+noisy porous media images/28.png,0.29101,115.54,1.1402911808200002e-13
+noisy porous media images/29.png,0.29686,135.67,1.33895884111e-13
+noisy porous media images/30.png,0.34578,241.58,2.3842093081400003e-13
+noisy porous media images/31.png,0.34701,250.07,2.46799909631e-13
+noisy porous media images/32.png,0.29802,153.63,1.5162102657900002e-13
+noisy porous media images/33.png,0.30497,195.86,1.9329879753800003e-13
+noisy porous media images/34.png,0.3104,168.53,1.6632618374900002e-13
+noisy porous media images/35.png,0.31684,171.61,1.6936590751300003e-13
+noisy porous media images/36.png,0.36578,291.83,2.88013826639e-13
+noisy porous media images/37.png,0.31074,440.77,4.35006182941e-13
+noisy porous media images/38.png,0.36652,281.8,2.7811498594000003e-13
+noisy porous media images/39.png,0.37473,299.74,2.95820389942e-13
+noisy porous media images/40.png,0.37586,279.3,2.7564767769000005e-13
+noisy porous media images/41.png,0.36346,202.2,1.9955589126e-13
+noisy porous media images/42.png,0.27652,90.9,8.971132797000002e-14
+noisy porous media images/43.png,0.30386,178.58,1.7624476291400002e-13
+noisy porous media images/44.png,0.34182,307.73,3.0370590710900004e-13
+noisy porous media images/45.png,0.2862,131.43,1.2971132931900002e-13
+noisy porous media images/46.png,0.27946,112.17,1.1070318656100002e-13
+noisy porous media images/47.png,0.28861,210.18,2.0743153919400002e-13
+noisy porous media images/48.png,0.37918,391.95,3.86824587435e-13
+noisy porous media images/49.png,0.33082,296.42,2.9254380458600004e-13
+noisy porous media images/50.png,0.27833,199.78,1.9716753687400002e-13
+noisy porous media images/51.png,0.40794,568.53,5.61095503749e-13
+noisy porous media images/52.png,0.30943,232.68,2.29637313444e-13
+noisy porous media images/53.png,0.3202,212.77,2.0998767054100003e-13
+noisy porous media images/54.png,0.27142,172.41,1.7015544615300002e-13
+noisy porous media images/55.png,0.36357,323.94,3.19703933802e-13
+noisy porous media images/56.png,0.25406,172.41,1.7015544615300002e-13
+noisy porous media images/57.png,0.28831,181.36,1.7898840968800003e-13
+noisy porous media images/58.png,0.27869,165.16,1.63000252228e-13
+noisy porous media images/59.png,0.25772,169.64,1.67421668612e-13
+noisy porous media images/60.png,0.27624,207.05,2.0434246926500003e-13
+noisy porous media images/61.png,0.35957,1463.2,1.44406617256e-12
+noisy porous media images/62.png,0.39819,1779.5,1.75623001235e-12
+noisy porous media images/63.png,0.40249,1541.3,1.52114488229e-12
+noisy porous media images/64.png,0.39094,1497.7,1.4781150264100002e-12
+noisy porous media images/65.png,0.40569,1301.4,1.2843819826200003e-12
+noisy porous media images/66.png,0.48388,1270.0,1.2533925910000001e-12
+noisy porous media images/67.png,0.42979,1411.7,1.3932396226100002e-12
+noisy porous media images/68.png,0.44163,1501.4,1.4817666426200001e-12
+noisy porous media images/69.png,0.46942,1504.5,1.48482610485e-12
+noisy porous media images/70.png,0.47686,1342.5,1.32494453025e-12
+noisy porous media images/71.png,0.42722,1139.0,1.1241056387e-12
+noisy porous media images/72.png,0.38486,1339.0,1.3214902987e-12
+noisy porous media images/73.png,0.41848,1554.3,1.53397488519e-12
+noisy porous media images/74.png,0.34072,747.49,7.37715297517e-13
+noisy porous media images/75.png,0.42198,740.03,7.30352849699e-13
+noisy porous media images/76.png,0.41122,1191.7,1.17611649661e-12
+noisy porous media images/77.png,0.43104,1414.4,1.3959043155200003e-12
+noisy porous media images/78.png,0.4247,1308.2,1.2910930610600002e-12
+noisy porous media images/79.png,0.44622,1382.3,1.36422407759e-12
+noisy porous media images/80.png,0.44942,1444.2,1.42531462986e-12
+noisy porous media images/81.png,0.4472,1428.4,1.4097212417200001e-12
+noisy porous media images/82.png,0.45383,1466.5,1.44732301945e-12
+noisy porous media images/83.png,0.46768,1601.2,1.5802615879600001e-12
+noisy porous media images/84.png,0.48736,1807.3,1.7836664800900002e-12
+noisy porous media images/85.png,0.47501,1543.4,1.5232174212200003e-12
+noisy porous media images/86.png,0.41981,724.82,7.153417463060001e-13
+noisy porous media images/87.png,0.4839,1668.4,1.6465828337200001e-12
+noisy porous media images/88.png,0.4878,1593.8,1.57295835554e-12
+noisy porous media images/89.png,0.48729,1528.4,1.5084135717200001e-12
+noisy porous media images/90.png,0.47354,1433.2,1.41445847356e-12
+noisy porous media images/91.png,0.47777,1500.8,1.48117448864e-12
+noisy porous media images/92.png,0.49644,1696.3,1.6741179937900001e-12
+noisy porous media images/93.png,0.50523,1746.7,1.7238589281100003e-12
+noisy porous media images/94.png,0.51191,1760.2,1.7371823926600002e-12
+noisy porous media images/95.png,0.51082,1748.5,1.7256353900500002e-12
+noisy porous media images/96.png,0.52274,1737.7,1.7149766184100002e-12
+noisy porous media images/97.png,0.42069,705.68,6.96452034344e-13
+noisy porous media images/98.png,0.344,459.44,4.53432040952e-13
+noisy porous media images/99.png,0.34182,438.1,4.3237109773000005e-13
+noisy porous media images/100.png,0.3445,477.0,4.707624141e-13
+noisy porous media images/101.png,0.34122,474.85,4.68640529005e-13
+noisy porous media images/102.png,0.35671,541.91,5.34823605503e-13
+noisy porous media images/103.png,0.36148,516.15,5.09400461295e-13
+noisy porous media images/104.png,0.35805,498.71,4.921885189430001e-13
+noisy porous media images/105.png,0.37369,569.75,5.622995501750001e-13
+noisy porous media images/106.png,0.37244,565.0,5.576116645000001e-13
+noisy porous media images/107.png,0.38248,617.11,6.090402376630001e-13
+noisy porous media images/108.png,0.42663,747.17,7.37399482061e-13
+noisy porous media images/109.png,0.38887,614.13,6.060992062290001e-13
+noisy porous media images/110.png,0.39456,654.98,6.46415023034e-13
+noisy porous media images/111.png,0.39901,626.39,6.18198885887e-13
+noisy porous media images/112.png,0.38693,599.16,5.91324964428e-13
+noisy porous media images/113.png,0.40468,651.72,6.43197653076e-13
+noisy porous media images/114.png,0.39716,614.25,6.062176370250001e-13
+noisy porous media images/115.png,0.39652,606.23,5.983025121590001e-13
+noisy porous media images/116.png,0.39356,621.2,6.1307675396e-13
+noisy porous media images/117.png,0.40361,671.16,6.62383442028e-13
+noisy porous media images/118.png,0.41026,650.53,6.420232143490001e-13
+noisy porous media images/119.png,0.4293,770.21,7.601381948930001e-13
+noisy porous media images/120.png,0.42356,738.16,7.28507303128e-13
+noisy porous media images/121.png,0.42047,687.37,6.78381468721e-13
+noisy porous media images/122.png,0.42395,704.36,6.951492955880001e-13
+noisy porous media images/123.png,0.42602,711.55,7.02245274115e-13
+noisy porous media images/124.png,0.43202,724.44,7.149667154520001e-13
+noisy porous media images/125.png,0.43005,741.84,7.32139180872e-13
+noisy porous media images/126.png,0.43318,738.97,7.293067110010001e-13
+noisy porous media images/127.png,0.44448,737.86,7.282112261380001e-13
+noisy porous media images/128.png,0.44339,694.39,6.853096702870001e-13
+noisy porous media images/129.png,0.44473,757.36,7.47456230488e-13
+noisy porous media images/130.png,0.43352,755.05,7.45176437665e-13
+noisy porous media images/131.png,0.44064,715.67,7.06311398111e-13
+noisy porous media images/132.png,0.44142,763.94,7.539501858020001e-13
+noisy porous media images/133.png,0.45414,770.99,7.609079950670001e-13
+noisy porous media images/134.png,0.4496,759.45,7.495189001850001e-13
+noisy porous media images/135.png,0.42927,754.67,7.44801406811e-13
+noisy porous media images/136.png,0.43162,758.59,7.48670146147e-13
+noisy porous media images/137.png,0.42119,702.74,6.93550479842e-13
+noisy porous media images/138.png,0.42648,727.95,7.184308162350001e-13
+noisy porous media images/139.png,0.44998,1076.9,1.06281770177e-12
+noisy porous media images/140.png,0.29082,155.57,1.53535657781e-13
+noisy porous media images/141.png,0.29427,162.35,1.60226997755e-13
+noisy porous media images/142.png,0.29619,163.27,1.6113496719100002e-13
+noisy porous media images/143.png,0.2987,174.03,1.71754261899e-13
+noisy porous media images/144.png,0.29937,160.56,1.58460405048e-13
+noisy porous media images/145.png,0.29535,157.19,1.5513447352700002e-13
+noisy porous media images/146.png,0.30135,163.12,1.6098692869600001e-13
+noisy porous media images/147.png,0.3076,165.65,1.63483844645e-13
+noisy porous media images/148.png,0.30883,173.93,1.7165556956900003e-13
+noisy porous media images/149.png,0.30026,166.38,1.6420429865400001e-13
+noisy porous media images/150.png,0.42838,747.51,7.37735035983e-13
+noisy porous media images/151.png,0.30214,172.18,1.6992845379400002e-13
+noisy porous media images/152.png,0.30693,179.33,1.7698495538900003e-13
+noisy porous media images/153.png,0.31175,183.19,1.80794479327e-13
+noisy porous media images/154.png,0.31149,176.05,1.7374784696500003e-13
+noisy porous media images/155.png,0.31122,184.21,1.8180114109300002e-13
+noisy porous media images/156.png,0.30712,174.26,1.71981254258e-13
+noisy porous media images/157.png,0.30765,174.02,1.7174439266600002e-13
+noisy porous media images/158.png,0.31084,174.43,1.7214903121900001e-13
+noisy porous media images/159.png,0.30908,176.37,1.7406366242100002e-13
+noisy porous media images/160.png,0.31406,175.95,1.73649154635e-13
+noisy porous media images/161.png,0.41728,713.7,7.043671592100001e-13
+noisy porous media images/162.png,0.25047,98.84,9.754749897200001e-14
+noisy porous media images/163.png,0.24322,127.51,1.25842589983e-13
+noisy porous media images/164.png,0.24731,117.0,1.1547002610000002e-13
+noisy porous media images/165.png,0.25627,122.87,1.2126326587100002e-13
+noisy porous media images/166.png,0.25373,107.32,1.05916608556e-13
+noisy porous media images/167.png,0.2845,152.12,1.5013077239600002e-13
+noisy porous media images/168.png,0.32149,205.83,2.0313842283900002e-13
+noisy porous media images/169.png,0.26251,116.1,1.1458179513e-13
+noisy porous media images/170.png,0.32083,199.21,1.9660499059300003e-13
+noisy porous media images/171.png,0.27358,138.78,1.3696521557400001e-13
+noisy porous media images/172.png,0.42343,722.64,7.13190253512e-13
+noisy porous media images/173.png,0.27655,135.4,1.3362941482e-13
+noisy porous media images/174.png,0.27197,142.85,1.40981993405e-13
+noisy porous media images/175.png,0.28,136.36,1.3457686118800001e-13
+noisy porous media images/176.png,0.28433,150.92,1.48946464436e-13
+noisy porous media images/177.png,0.28479,149.81,1.4785097957300001e-13
+noisy porous media images/178.png,0.28787,156.37,1.54325196421e-13
+noisy porous media images/179.png,0.28514,147.59,1.45660009847e-13
+noisy porous media images/180.png,0.29092,156.31,1.5426598102300002e-13
+noisy porous media images/181.png,0.29076,154.95,1.52923765335e-13
+noisy porous media images/182.png,0.30357,272.19,2.68630653027e-13
+noisy porous media images/183.png,0.42286,728.18,7.18657808594e-13
+noisy porous media images/184.png,0.30193,270.46,2.66923275718e-13
+noisy porous media images/185.png,0.30027,258.22,2.5484333452600005e-13
+noisy porous media images/186.png,0.30068,268.25,2.6474217522500003e-13
+noisy porous media images/187.png,0.30436,267.25,2.63755251925e-13
+noisy porous media images/188.png,0.3101,305.14,3.01149775762e-13
+noisy porous media images/189.png,0.31472,298.37,2.9446830502100004e-13
+noisy porous media images/190.png,0.31845,295.02,2.91162111966e-13
+noisy porous media images/191.png,0.31853,303.52,2.99550960016e-13
+noisy porous media images/192.png,0.3265,300.89,2.96955351737e-13
+noisy porous media images/193.png,0.32796,313.33,3.09232677589e-13
+noisy porous media images/194.png,0.41429,710.97,7.016728586010001e-13
+noisy porous media images/195.png,0.33255,328.79,3.2449051180700007e-13
+noisy porous media images/196.png,0.3392,341.73,3.3726129930900007e-13
+noisy porous media images/197.png,0.34155,336.3,3.3190230579000003e-13
+noisy porous media images/198.png,0.35654,366.67,3.6187516641100006e-13
+noisy porous media images/199.png,0.35815,358.99,3.5429559546700006e-13
+noisy porous media images/200.png,0.35146,369.84,3.65003713272e-13
+porous_media_images/201.png,0.35796,374.49,3.69592906617e-13
+porous_media_images/202.png,0.36077,383.32,3.78307439356e-13
+porous_media_images/203.png,0.41494,1337.2,1.3197138367600001e-12
+porous_media_images/204.png,0.40282,1162.4,1.1471996439200002e-12
+porous_media_images/205.png,0.42382,737.1,7.274611644300001e-13
+porous_media_images/206.png,0.43927,1463.7,1.4445596342100002e-12
+porous_media_images/207.png,0.43553,1365.6,1.34774245848e-12
+porous_media_images/208.png,0.43398,1321.8,1.30451521794e-12
+porous_media_images/209.png,0.44312,1418.6,1.40004939338e-12
+porous_media_images/210.png,0.44626,1445.6,1.42669632248e-12
+porous_media_images/211.png,0.44676,1502.8,1.48314833524e-12
+porous_media_images/212.png,0.46594,1682.9,1.6608932215700001e-12
+porous_media_images/213.png,0.46022,1525.5,1.50555149415e-12
+porous_media_images/214.png,0.47133,1655.9,1.6342462924700001e-12
+porous_media_images/215.png,0.47001,1657.3,1.63562798509e-12
+porous_media_images/216.png,0.4161,720.15,7.10732814495e-13
+porous_media_images/217.png,0.46992,1494.1,1.47456210253e-12
+porous_media_images/218.png,0.48376,1684.2,1.6621762218600001e-12
+porous_media_images/219.png,0.49363,1688.6,1.66651868438e-12
+porous_media_images/220.png,0.49501,1813.5,1.7897854045500002e-12
+porous_media_images/221.png,0.50004,1811.3,1.78761417329e-12
+porous_media_images/222.png,0.50049,1723.9,1.7013570768700002e-12
+porous_media_images/223.png,0.50293,1761.2,1.7381693159600002e-12
+porous_media_images/224.png,0.44241,1054.0,1.0402171582e-12
+porous_media_images/225.png,0.50698,1747.4,1.7245497744200002e-12
+porous_media_images/226.png,0.39916,1202.1,1.18638049893e-12
+porous_media_images/227.png,0.2974,153.57,1.51561811181e-13
+porous_media_images/228.png,0.46098,1105.7,1.09124109281e-12
+porous_media_images/229.png,0.46882,1163.7,1.1484826442100001e-12
+porous_media_images/230.png,0.47662,1171.4,1.1560819536200002e-12
+porous_media_images/231.png,0.38304,911.34,8.994226802220001e-13
+porous_media_images/232.png,0.37915,882.32,8.707821660560001e-13
+porous_media_images/233.png,0.38339,910.85,8.989390878050001e-13
+porous_media_images/234.png,0.34794,757.68,7.47772045944e-13
+porous_media_images/235.png,0.36223,779.16,7.68971158428e-13
+porous_media_images/236.png,0.36813,817.93,8.07234174769e-13
+porous_media_images/237.png,0.33296,730.63,7.21075770679e-13
+porous_media_images/238.png,0.2955,146.86,1.4493955583800002e-13
+porous_media_images/239.png,0.32532,675.27,6.66439696791e-13
+porous_media_images/240.png,0.34808,838.3,8.2733780239e-13
+porous_media_images/241.png,0.35441,844.63,8.335850268790001e-13
+porous_media_images/242.png,0.31797,586.14,5.78475223062e-13
+porous_media_images/243.png,0.32048,746.3,7.3654085879e-13
+porous_media_images/244.png,0.30576,528.66,5.21746871778e-13
+porous_media_images/245.png,0.38059,925.6,9.134962064800002e-13
+porous_media_images/246.png,0.3003,148.71,1.46765363943e-13
+porous_media_images/247.png,0.29566,146.18,1.4426844799400001e-13
+porous_media_images/248.png,0.29909,146.73,1.44811255809e-13
+porous_media_images/249.png,0.30737,159.61,1.5752282791300002e-13
+porous_media_images/250.png,0.30883,152.87,1.5087096487100003e-13
+porous_media_images/251.png,0.30656,160.92,1.58815697436e-13
+porous_media_images/252.png,0.30817,160.83,1.5872687433900003e-13
+porous_media_images/253.png,0.31269,163.52,1.6138169801600002e-13
+porous_media_images/254.png,0.27585,125.63,1.2398717417900001e-13
+porous_media_images/255.png,0.31739,173.02,1.7075746936600002e-13
+porous_media_images/256.png,0.3184,177.57,1.75247970381e-13
+porous_media_images/257.png,0.3184,172.12,1.69869238396e-13
+porous_media_images/258.png,0.44635,1069.5,1.0555144693500002e-12
+porous_media_images/259.png,0.32219,173.77,1.7149766184100003e-13
+porous_media_images/260.png,0.254,111.92,1.1045645573600001e-13
+porous_media_images/261.png,0.25653,121.04,1.19457196232e-13
+porous_media_images/262.png,0.25712,123.63,1.2201332757900001e-13
+porous_media_images/263.png,0.26855,122.68,1.2107575044400002e-13
+porous_media_images/264.png,0.26466,112.47,1.1099926355100001e-13
+porous_media_images/265.png,0.29599,146.14,1.44228971062e-13
+porous_media_images/266.png,0.26836,131.61,1.29888975513e-13
+porous_media_images/267.png,0.26694,114.07,1.1257834083100001e-13
+porous_media_images/268.png,0.26374,122.5,1.2089810425e-13
+porous_media_images/269.png,0.27008,120.08,1.18509749864e-13
+porous_media_images/270.png,0.2861,155.39,1.53358011587e-13
+porous_media_images/271.png,0.30309,267.32,2.6382433655600003e-13
+porous_media_images/272.png,0.29702,264.8,2.6133728984e-13
+porous_media_images/273.png,0.29427,247.35,2.44115478255e-13
+porous_media_images/274.png,0.29712,256.34,2.52987918722e-13
+porous_media_images/275.png,0.30981,263.67,2.6022206651100006e-13
+porous_media_images/276.png,0.27608,139.23,1.37409331059e-13
+porous_media_images/277.png,0.32028,289.92,2.8612880313600006e-13
+porous_media_images/278.png,0.31602,264.18,2.60725397394e-13
+porous_media_images/279.png,0.31197,266.48,2.6299532098400003e-13
+porous_media_images/280.png,0.31578,262.83,2.59393050939e-13
+porous_media_images/281.png,0.32683,265.0,2.6153467450000004e-13
+porous_media_images/282.png,0.33445,302.9,2.9893906757e-13
+porous_media_images/283.png,0.33113,299.05,2.95139412865e-13
+porous_media_images/284.png,0.33833,317.2,3.1305207076e-13
+porous_media_images/285.png,0.34253,336.22,3.3182335192600005e-13
+porous_media_images/286.png,0.33268,310.02,3.05965961466e-13
+porous_media_images/287.png,0.2839,148.55,1.46607456215e-13
+porous_media_images/288.png,0.34825,330.23,3.2591168135900006e-13
+porous_media_images/289.png,0.3421,315.73,3.1160129350900003e-13
+porous_media_images/290.png,0.35916,371.48,3.6662226748400003e-13
+porous_media_images/291.png,0.36106,359.62,3.5491735714600004e-13
+porous_media_images/292.png,0.36479,360.04,3.5533186493200004e-13
+porous_media_images/293.png,0.37278,402.68,3.9741427444400004e-13
+porous_media_images/294.png,0.37094,386.58,3.81524809314e-13
+porous_media_images/295.png,0.38608,435.5,4.2980509715000005e-13
+porous_media_images/296.png,0.37145,381.35,3.7636320045500003e-13
+porous_media_images/297.png,0.37546,370.81,3.65961028873e-13
+porous_media_images/298.png,0.29746,177.9,1.7557365507000002e-13
+porous_media_images/299.png,0.38298,378.31,3.73362953623e-13
+porous_media_images/300.png,0.38719,411.29,4.0591168405700004e-13
+noisy porous media images/301.png,0.38501,411.6,4.0621763028000003e-13
+noisy porous media images/302.png,0.39401,435.57,4.2987418178100003e-13
+noisy porous media images/303.png,0.38758,382.07,3.77073785231e-13
+noisy porous media images/304.png,0.40365,429.62,4.2400198814600004e-13
+noisy porous media images/305.png,0.40499,447.23,4.4138170745900005e-13
+noisy porous media images/306.png,0.40168,415.77,4.10333100441e-13
+noisy porous media images/307.png,0.40786,442.97,4.371774142010001e-13
+noisy porous media images/308.png,0.4101,436.59,4.30880843547e-13
+noisy porous media images/309.png,0.45015,1050.4,1.0366642343200002e-12
+noisy porous media images/310.png,0.40604,424.83,4.19274625539e-13
+noisy porous media images/311.png,0.4261,536.9,5.2987911977e-13
+noisy porous media images/312.png,0.41032,415.38,4.0994820035400004e-13
+noisy porous media images/313.png,0.41135,424.51,4.18958810083e-13
+noisy porous media images/314.png,0.40527,413.64,4.08230953812e-13
+noisy porous media images/315.png,0.39925,400.34,3.95104873922e-13
+noisy porous media images/316.png,0.39781,393.11,3.8796941846300006e-13
+noisy porous media images/317.png,0.39822,398.02,3.92815211866e-13
+noisy porous media images/318.png,0.3958,392.28,3.87150272124e-13
+noisy porous media images/319.png,0.39704,399.61,3.9438441991300005e-13
+noisy porous media images/320.png,0.2971,153.28,1.5127560342400002e-13
+noisy porous media images/321.png,0.3659,804.75,7.94226525675e-13
+noisy porous media images/322.png,0.37034,779.55,7.69356058515e-13
+noisy porous media images/323.png,0.38534,851.56,8.40424405348e-13
+noisy porous media images/324.png,0.38109,797.6,7.871700240800001e-13
+noisy porous media images/325.png,0.39634,794.15,7.83765138695e-13
+noisy porous media images/326.png,0.3903,872.46,8.610511023180001e-13
+noisy porous media images/327.png,0.39154,871.34,8.599457482220001e-13
+noisy porous media images/328.png,0.39915,851.98,8.408389131340001e-13
+noisy porous media images/329.png,0.41209,920.22,9.081865591260001e-13
+noisy porous media images/330.png,0.41715,928.64,9.16496453312e-13
+noisy porous media images/331.png,0.2919,143.61,1.4173205511300003e-13
+noisy porous media images/332.png,0.40859,877.0,8.655317341e-13
+noisy porous media images/333.png,0.42212,964.6,9.5198621518e-13
+noisy porous media images/334.png,0.44157,1064.1,1.05018508353e-12
+noisy porous media images/335.png,0.4272,953.55,9.41080712715e-13
+noisy porous media images/336.png,0.44844,1062.7,1.04880339091e-12
+noisy porous media images/337.png,0.44599,1025.9,1.0124846134700001e-12
+noisy porous media images/338.png,0.46214,1119.6,1.10495932668e-12
+noisy porous media images/339.png,0.29873,291.63,2.87816441979e-13
+noisy porous media images/340.png,0.28461,278.0,2.743646774e-13
+noisy porous media images/341.png,0.28322,258.28,2.5490254992399997e-13
+noisy porous media images/342.png,0.27359,255.12,2.51783872296e-13
+noisy porous media images/343.png,0.28596,283.52,2.79812494016e-13
+noisy porous media images/344.png,0.28724,286.82,2.8306934090600003e-13
+noisy porous media images/345.png,0.27722,270.01,2.66479160233e-13
+noisy porous media images/346.png,0.28496,273.91,2.7032816110300006e-13
+noisy porous media images/347.png,0.30086,290.62,2.86819649446e-13
+noisy porous media images/348.png,0.29327,284.86,2.81134971238e-13
+noisy porous media images/349.png,0.28985,292.62,2.88793496046e-13
+noisy porous media images/350.png,0.282,278.2,2.7456206206e-13
+noisy porous media images/351.png,0.2983,313.89,3.09785354637e-13
+noisy porous media images/352.png,0.29337,293.92,2.9007649633600005e-13
+noisy porous media images/353.png,0.2991,288.25,2.84480641225e-13
+noisy porous media images/354.png,0.28975,288.81,2.85033318273e-13
+noisy porous media images/355.png,0.28306,274.89,2.71295345937e-13
+noisy porous media images/356.png,0.28969,279.93,2.76269439369e-13
+noisy porous media images/357.png,0.29432,293.55,2.89711334715e-13
+noisy porous media images/358.png,0.28121,284.41,2.8069085575300004e-13
+noisy porous media images/359.png,0.29194,287.11,2.8335554866300004e-13
+noisy porous media images/360.png,0.35907,851.38,8.40246759154e-13
+noisy porous media images/361.png,0.37184,883.26,8.717098739580001e-13
+noisy porous media images/362.png,0.35218,843.72,8.326869266760001e-13
+noisy porous media images/363.png,0.36534,839.08,8.281076025640001e-13
+noisy porous media images/364.png,0.36741,922.03,9.099728902990001e-13
+noisy porous media images/365.png,0.38572,981.29,9.68457965057e-13
+noisy porous media images/366.png,0.37661,848.74,8.376412816420001e-13
+noisy porous media images/367.png,0.33881,725.48,7.159931156840001e-13
+noisy porous media images/368.png,0.37312,894.0,8.823094302e-13
+noisy porous media images/369.png,0.33825,698.24,6.89109324992e-13
+noisy porous media images/370.png,0.35775,800.1,7.8963733233e-13
+noisy porous media images/371.png,0.32975,681.38,6.72469798154e-13
+noisy porous media images/372.png,0.33318,730.57,7.210165552810001e-13
+noisy porous media images/373.png,0.37316,855.79,8.445990909070001e-13
+noisy porous media images/374.png,0.37217,845.54,8.344831270820001e-13
+noisy porous media images/375.png,0.36442,848.88,8.37779450904e-13
+noisy porous media images/376.png,0.36572,841.73,8.307229493090001e-13
+noisy porous media images/377.png,0.32021,336.33,3.31931913489e-13
+noisy porous media images/378.png,0.31479,325.28,3.21026411024e-13
+noisy porous media images/379.png,0.32629,331.01,3.26681481533e-13
+noisy porous media images/380.png,0.31245,311.63,3.0755490797900003e-13
+noisy porous media images/381.png,0.32828,342.55,3.3807057641500005e-13
+noisy porous media images/382.png,0.39034,429.07,4.2345918033100004e-13
+noisy porous media images/383.png,0.39462,428.81,4.23202580273e-13
+noisy porous media images/384.png,0.3909,415.87,4.10431792771e-13
+noisy porous media images/385.png,0.39825,441.35,4.3557859845500004e-13
+noisy porous media images/386.png,0.37574,414.51,4.09089577083e-13
+noisy porous media images/387.png,0.52506,1431.7,1.41297808861e-12
+noisy porous media images/388.png,0.51246,1378.1,1.36007899973e-12
+noisy porous media images/389.png,0.51937,1404.1,1.38573900553e-12
+noisy porous media images/390.png,0.50604,1321.1,1.30382437163e-12
+noisy porous media images/391.png,0.51195,1371.4,1.3534666136200003e-12
+noisy porous media images/392.png,0.35047,565.87,5.58470287771e-13
+noisy porous media images/393.png,0.34391,548.32,5.411497838560001e-13
+noisy porous media images/394.png,0.35695,577.79,5.70234413507e-13
+noisy porous media images/395.png,0.34006,514.43,5.077029532189999e-13
+noisy porous media images/396.png,0.34766,536.32,5.293067042560001e-13
+noisy porous media images/397.png,0.33314,702.31,6.93126102823e-13
+noisy porous media images/398.png,0.34705,469.6,4.634591816800001e-13
+noisy porous media images/399.png,0.3371,161.9,1.5978288227000003e-13
+noisy porous media images/400.png,0.334,278.82,2.7517395450600003e-13
+noisy porous media images/401.png,0.37969,639.61,6.31246011913e-13
+noisy porous media images/402.png,0.33847,154.82,1.52795465306e-13
+noisy porous media images/403.png,0.29741,115.06,1.1355539489800001e-13
+noisy porous media images/404.png,0.30396,128.24,1.2656304399200002e-13
+noisy porous media images/405.png,0.31506,170.55,1.6831976881500002e-13
+noisy porous media images/406.png,0.32344,149.36,1.4740686408800003e-13
+noisy porous media images/407.png,0.33739,231.65,2.28620782445e-13
+noisy porous media images/408.png,0.31628,190.65,1.8815692714500001e-13
+noisy porous media images/409.png,0.34239,227.27,2.2429805839100003e-13
+noisy porous media images/410.png,0.35806,241.2,2.3804589996e-13
+noisy porous media images/411.png,0.35725,260.47,2.57063911951e-13
+noisy porous media images/412.png,0.36537,606.46,5.985295045180001e-13
+noisy porous media images/413.png,0.37014,244.74,2.41539608442e-13
+noisy porous media images/414.png,0.26972,235.75,2.32667167975e-13
+noisy porous media images/415.png,0.29896,387.18,3.8211696329400004e-13
+noisy porous media images/416.png,0.26559,221.8,2.1889958794000003e-13
+noisy porous media images/417.png,0.26854,225.45,2.22501857985e-13
+noisy porous media images/418.png,0.26957,286.88,2.83128556304e-13
+noisy porous media images/419.png,0.27483,264.03,2.60577358899e-13
+noisy porous media images/420.png,0.32543,631.87,6.23607225571e-13
+noisy porous media images/421.png,0.32523,671.67,6.62886772911e-13
+noisy porous media images/422.png,0.45595,1483.7,1.4642981002100001e-12
+noisy porous media images/423.png,0.37802,625.79,6.17606731907e-13
+noisy porous media images/424.png,0.44279,1363.7,1.3458673042100002e-12
+noisy porous media images/425.png,0.43825,1489.1,1.46962748603e-12
+noisy porous media images/426.png,0.42005,1323.2,1.30589691056e-12
+noisy porous media images/427.png,0.43117,1341.4,1.3238589146200002e-12
+noisy porous media images/428.png,0.41994,1364.5,1.34665684285e-12
+noisy porous media images/429.png,0.40146,1218.5,1.20256604105e-12
+noisy porous media images/430.png,0.41036,1345.0,1.3274118385000001e-12
+noisy porous media images/431.png,0.40063,1240.4,1.2241796613200001e-12
+noisy porous media images/432.png,0.40583,1317.0,1.2997779861e-12
+noisy porous media images/433.png,0.39752,1236.7,1.2205280451100002e-12
+noisy porous media images/434.png,0.37361,604.77,5.96861604141e-13
+noisy porous media images/435.png,0.39151,1169.0,1.1537133377e-12
+noisy porous media images/436.png,0.37242,1112.7,1.0981495559100002e-12
+noisy porous media images/437.png,0.38131,1119.8,1.10515671134e-12
+noisy porous media images/438.png,0.33059,519.09,5.123020157970001e-13
+noisy porous media images/439.png,0.45323,1517.5,1.49765610775e-12
+noisy porous media images/440.png,0.46796,1590.4,1.5696028163200001e-12
+noisy porous media images/441.png,0.46647,1621.8,1.60059220794e-12
+noisy porous media images/442.png,0.46331,1590.7,1.56989889331e-12
+noisy porous media images/443.png,0.47784,1692.3,1.67017030059e-12
+noisy porous media images/444.png,0.46166,1609.3,1.58825566669e-12
+noisy porous media images/445.png,0.36087,576.05,5.68517166965e-13
+noisy porous media images/446.png,0.4455,1305.4,1.2883296758200002e-12
+noisy porous media images/447.png,0.47012,1665.2,1.6434246791600001e-12
+noisy porous media images/448.png,0.49048,1745.4,1.7225759278200003e-12
+noisy porous media images/449.png,0.49545,1775.0,1.7517888575e-12
+noisy porous media images/450.png,0.47771,1703.6,1.68132253388e-12
+noisy porous media images/451.png,0.4673,1364.5,1.34665684285e-12
+noisy porous media images/452.png,0.34719,546.5,5.3935358345e-13
+noisy porous media images/453.png,0.32432,487.43,4.81056024119e-13
+noisy porous media images/454.png,0.30883,466.23,4.601332501590001e-13
+noisy porous media images/455.png,0.33419,486.92,4.805526932360001e-13
+noisy porous media images/456.png,0.36576,583.19,5.755637993270001e-13
+noisy porous media images/457.png,0.32029,462.12,4.56076995396e-13
+noisy porous media images/458.png,0.32863,495.99,4.89504087567e-13
+noisy porous media images/459.png,0.32718,528.87,5.219541256710001e-13
+noisy porous media images/460.png,0.32013,448.89,4.4302000013700004e-13
+noisy porous media images/461.png,0.3143,471.85,4.656797591050001e-13
+noisy porous media images/462.png,0.31337,477.66,4.71413783478e-13
+noisy porous media images/463.png,0.33183,523.25,5.16407616725e-13
+noisy porous media images/464.png,0.31924,495.66,4.891784028780001e-13
+noisy porous media images/465.png,0.42439,1067.5,1.05354062275e-12
+noisy porous media images/466.png,0.42882,1073.1,1.05906739323e-12
+noisy porous media images/467.png,0.36921,590.06,5.82343962398e-13
+noisy porous media images/468.png,0.44101,1113.7,1.09913647921e-12
+noisy porous media images/469.png,0.36323,807.7,7.971379494100001e-13
+noisy porous media images/470.png,0.36659,858.58,8.473526069140001e-13
+noisy porous media images/471.png,0.35684,783.55,7.733037517150001e-13
+noisy porous media images/472.png,0.36054,841.39,8.30387395387e-13
+noisy porous media images/473.png,0.35559,760.01,7.500715772330001e-13
+noisy porous media images/474.png,0.35741,535.59,5.285862502470001e-13
+noisy porous media images/475.png,0.34297,500.72,4.94172234776e-13
+noisy porous media images/476.png,0.34937,402.41,3.9714780515300005e-13
+noisy porous media images/477.png,0.34453,382.58,3.77577116114e-13
+noisy porous media images/478.png,0.35095,567.42,5.60000018886e-13
+noisy porous media images/479.png,0.3093,429.49,4.2387368811700005e-13
+noisy porous media images/480.png,0.35842,634.53,6.26232441549e-13
+noisy porous media images/481.png,0.37073,734.6,7.249938561800001e-13
+noisy porous media images/482.png,0.37426,864.95,8.536393083350001e-13
+noisy porous media images/483.png,0.36257,761.26,7.51305231358e-13
+noisy porous media images/484.png,0.3631,773.95,7.638292880350001e-13
+noisy porous media images/485.png,0.36026,739.08,7.294152725640001e-13
+noisy porous media images/486.png,0.36317,801.98,7.914927481340001e-13
+noisy porous media images/487.png,0.3576,769.9,7.5983224867e-13
+noisy porous media images/488.png,0.34361,691.23,6.821909926590001e-13
+noisy porous media images/489.png,0.38085,777.56,7.67392081148e-13
+noisy porous media images/490.png,0.37694,711.18,7.01880112494e-13
+noisy porous media images/491.png,0.38709,748.27,7.384850976910001e-13
+noisy porous media images/492.png,0.38088,726.93,7.17424154469e-13
+noisy porous media images/493.png,0.38306,755.46,7.455810762180001e-13
+noisy porous media images/494.png,0.38618,765.77,7.557562554410001e-13
+noisy porous media images/495.png,0.38807,788.99,7.786726144670001e-13
+noisy porous media images/496.png,0.38903,768.26,7.58213694458e-13
+noisy porous media images/497.png,0.31397,440.32,4.3456206745600003e-13
+noisy porous media images/498.png,0.33207,549.16,5.419787994280001e-13
+noisy porous media images/499.png,0.29656,330.22,3.2590181212600005e-13
+noisy porous media images/500.png,0.30636,343.41,3.3891933045300007e-13
+noisy porous media images/501.png,0.30105,344.51,3.40004946083e-13
+noisy porous media images/502.png,0.31376,359.69,3.54986441777e-13
+noisy porous media images/503.png,0.3166,372.24,3.6737232919200004e-13
+noisy porous media images/504.png,0.31298,376.31,3.71389107023e-13
+noisy porous media images/505.png,0.31206,384.54,3.7951148578200006e-13
+noisy porous media images/506.png,0.32277,383.1,3.7809031623000006e-13
+noisy porous media images/507.png,0.33054,429.73,4.2411054970900005e-13
+noisy porous media images/508.png,0.32546,398.77,3.93555404341e-13
+noisy porous media images/509.png,0.34066,583.52,5.758894840160001e-13
+noisy porous media images/510.png,0.33079,411.77,4.06385407241e-13
+noisy porous media images/511.png,0.34131,453.59,4.47658539647e-13
+noisy porous media images/512.png,0.32717,414.19,4.08773761627e-13
+noisy porous media images/513.png,0.33634,408.61,4.0326672961300006e-13
+noisy porous media images/514.png,0.33745,434.77,4.29084643141e-13
+noisy porous media images/515.png,0.32101,406.1,4.0078955213000007e-13
+noisy porous media images/516.png,0.31475,406.72,4.0140144457600003e-13
+noisy porous media images/517.png,0.30731,353.24,3.4862078649200003e-13
+noisy porous media images/518.png,0.29532,315.74,3.1161116274200005e-13
+noisy porous media images/519.png,0.30348,353.55,3.48926732715e-13
+noisy porous media images/520.png,0.36095,702.94,6.937478645020001e-13
+noisy porous media images/521.png,0.30356,340.09,3.35642745097e-13
+noisy porous media images/522.png,0.30293,344.41,3.3990625375300005e-13
+noisy porous media images/523.png,0.31002,370.96,3.66109067368e-13
+noisy porous media images/524.png,0.32456,411.31,4.05931422523e-13
+noisy porous media images/525.png,0.30441,370.41,3.6556625955300003e-13
+noisy porous media images/526.png,0.31695,398.47,3.9325932735100007e-13
+noisy porous media images/527.png,0.31728,399.43,3.9420677371900005e-13
+noisy porous media images/528.png,0.3154,381.3,3.7631385429000003e-13
+noisy porous media images/529.png,0.32347,385.64,3.80597101412e-13
+noisy porous media images/530.png,0.36671,815.25,8.04589220325e-13
+noisy porous media images/531.png,0.33478,585.69,5.780311075770001e-13
+noisy porous media images/532.png,0.37086,784.96,7.746953135680001e-13
+noisy porous media images/533.png,0.37611,813.15,8.025166813950001e-13
+noisy porous media images/534.png,0.3641,802.71,7.92213202143e-13
+noisy porous media images/535.png,0.3546,782.8,7.725635592400001e-13
+noisy porous media images/536.png,0.35304,733.79,7.24194448307e-13
+noisy porous media images/537.png,0.34937,724.38,7.149075000540001e-13
+noisy porous media images/538.png,0.34872,657.21,6.48615861993e-13
+noisy porous media images/539.png,0.35735,762.4,7.5243032392e-13
+noisy porous media images/540.png,0.3572,718.22,7.088280525260001e-13
+noisy porous media images/541.png,0.33818,645.1,6.3666422083e-13
+noisy porous media images/542.png,0.35984,706.52,6.97281049916e-13
+noisy porous media images/543.png,0.33622,665.5,6.5679745615e-13
+noisy porous media images/544.png,0.31763,392.77,3.87633864541e-13
+noisy porous media images/545.png,0.31558,391.47,3.8635086425100005e-13
+noisy porous media images/546.png,0.40389,874.99,8.635480182670001e-13
+noisy porous media images/547.png,0.3891,830.59,8.197286237470001e-13
+noisy porous media images/548.png,0.3807,896.91,8.85181377003e-13
+noisy porous media images/549.png,0.38324,836.84,8.258968943720001e-13
+noisy porous media images/550.png,0.36283,794.91,7.845152004030001e-13
+noisy porous media images/551.png,0.37041,735.39,7.25773525587e-13
+noisy porous media images/552.png,0.36821,786.18,7.75899359994e-13
+noisy porous media images/553.png,0.35667,635.61,6.27298318713e-13
+noisy porous media images/554.png,0.36337,698.5,6.893659250500001e-13
+noisy porous media images/555.png,0.35158,741.2,7.315075499600001e-13
+noisy porous media images/556.png,0.33396,630.39,6.22146579087e-13
+noisy porous media images/557.png,0.3566,612.44,6.044313058520001e-13
+noisy porous media images/558.png,0.39157,909.76,8.97863341408e-13
+noisy porous media images/559.png,0.37533,803.64,7.93131040812e-13
+noisy porous media images/560.png,0.36833,741.59,7.318924500470001e-13
+noisy porous media images/561.png,0.35585,694.08,6.85003724064e-13
+noisy porous media images/562.png,0.35844,586.08,5.784160076640001e-13
+noisy porous media images/563.png,0.35488,568.5,5.6106589605e-13
+noisy porous media images/564.png,0.36658,719.36,7.099531450880001e-13
+noisy porous media images/565.png,0.34941,585.0,5.773501305000001e-13
+noisy porous media images/566.png,0.34471,552.56,5.45334338648e-13
+noisy porous media images/567.png,0.33807,515.21,5.084727533930001e-13
+noisy porous media images/568.png,0.40019,892.99,8.81312637667e-13
+noisy porous media images/569.png,0.39173,847.61,8.365260583130001e-13
+noisy porous media images/570.png,0.3977,911.46,8.995411110180001e-13
+noisy porous media images/571.png,0.34494,677.16,6.683049818280001e-13
+noisy porous media images/572.png,0.34939,732.97,7.233851712010001e-13
+noisy porous media images/573.png,0.35443,745.49,7.357414509170001e-13
+noisy porous media images/574.png,0.33777,682.86,6.739304446380001e-13
+noisy porous media images/575.png,0.36366,699.83,6.906785330390001e-13
+noisy porous media images/576.png,0.35548,726.71,7.172070313430001e-13
+noisy porous media images/577.png,0.36537,739.72,7.300469034760001e-13
+noisy porous media images/578.png,0.36805,800.14,7.896768092620001e-13
+noisy porous media images/579.png,0.36502,777.22,7.670565272260001e-13
+noisy porous media images/580.png,0.33855,653.63,6.450826765790001e-13
+noisy porous media images/581.png,0.35379,736.24,7.26612410392e-13
+noisy porous media images/582.png,0.38365,869.17,8.57804124661e-13
+noisy porous media images/583.png,0.38359,872.34,8.60932671522e-13
+noisy porous media images/584.png,0.38718,859.38,8.48142145554e-13
+noisy porous media images/585.png,0.38491,858.33,8.471058760890001e-13
+noisy porous media images/586.png,0.37863,763.34,7.53358031822e-13
+noisy porous media images/587.png,0.3724,718.21,7.088181832930001e-13
+noisy porous media images/588.png,0.36878,722.21,7.127658764930001e-13
+noisy porous media images/589.png,0.36442,704.08,6.948729570640001e-13
+noisy porous media images/590.png,0.35493,664.09,6.554058942970001e-13
+noisy porous media images/591.png,0.35768,642.58,6.341771741140001e-13
+noisy porous media images/592.png,0.33542,611.73,6.037305903090001e-13
+noisy porous media images/593.png,0.33218,622.87,6.14724915871e-13
+noisy porous media images/594.png,0.33427,585.07,5.774192151310001e-13
+noisy porous media images/595.png,0.32516,537.68,5.30648919944e-13
+noisy porous media images/596.png,0.43739,870.78,8.593930711740001e-13
+noisy porous media images/597.png,0.43914,881.37,8.69844588921e-13
+noisy porous media images/598.png,0.4454,916.77,9.047816737410001e-13
+noisy porous media images/599.png,0.43538,881.98,8.704466121340001e-13
+noisy porous media images/600.png,0.43466,843.83,8.327954882390001e-13
+noisy porous media images/601.png,0.43895,853.25,8.42092305725e-13
+noisy porous media images/602.png,0.43461,876.29,8.64831018557e-13
+noisy porous media images/603.png,0.44491,890.08,8.784406908640001e-13
+noisy porous media images/604.png,0.3697,716.29,7.06923290557e-13
+noisy porous media images/605.png,0.37121,729.56,7.20019762748e-13
+noisy porous media images/606.png,0.36872,718.33,7.089366140890001e-13
+noisy porous media images/607.png,0.36664,699.25,6.901061175250001e-13
+noisy porous media images/608.png,0.36334,694.33,6.852504548890001e-13
+noisy porous media images/609.png,0.36573,711.84,7.025314818720001e-13
+noisy porous media images/610.png,0.36939,701.71,6.92533948843e-13
+noisy porous media images/611.png,0.36045,669.54,6.60784626282e-13
+noisy porous media images/612.png,0.34746,610.86,6.02871967038e-13
+noisy porous media images/613.png,0.36746,688.79,6.797828998070001e-13
+noisy porous media images/614.png,0.37492,1045.2,1.03153223316e-12
+noisy porous media images/615.png,0.38042,1182.9,1.1674315715700002e-12
+noisy porous media images/616.png,0.3806,1157.9,1.1427584890700001e-12
+noisy porous media images/617.png,0.39037,1152.7,1.1376264879100001e-12
+noisy porous media images/618.png,0.39523,1206.2,1.1904268844600002e-12
+noisy porous media images/619.png,0.39039,1173.3,1.15795710789e-12
+noisy porous media images/620.png,0.40169,1219.2,1.2032568873600002e-12
+noisy porous media images/621.png,0.40037,1196.7,1.1810511131100002e-12
+noisy porous media images/622.png,0.4167,1327.7,1.3103380654100001e-12
+noisy porous media images/623.png,0.4148,1314.9,1.2977054471700002e-12
+noisy porous media images/624.png,0.40232,1228.5,1.2124352740500002e-12
+noisy porous media images/625.png,0.39845,1224.8,1.20878365784e-12
+noisy porous media images/626.png,0.41954,1304.3,1.28724406019e-12
+noisy porous media images/627.png,0.4065,1253.5,1.23710835655e-12
+noisy porous media images/628.png,0.41582,1300.5,1.2834937516500001e-12
+noisy porous media images/629.png,0.41874,1278.4,1.2616827467200002e-12
+noisy porous media images/630.png,0.41958,1302.7,1.28566498291e-12
+noisy porous media images/631.png,0.41572,1344.4,1.3268196845200003e-12
+noisy porous media images/632.png,0.43051,1396.5,1.37823838845e-12
+noisy porous media images/633.png,0.42399,1334.2,1.3167530668600001e-12
+noisy porous media images/634.png,0.43609,1395.3,1.37705408049e-12
+noisy porous media images/635.png,0.36962,942.86,9.305305026380001e-13
+noisy porous media images/636.png,0.36423,979.32,9.66513726156e-13
+noisy porous media images/637.png,0.36089,990.37,9.774192286210001e-13
+noisy porous media images/638.png,0.37058,1011.4,9.981742256200001e-13
+noisy porous media images/639.png,0.38722,1150.1,1.13506048733e-12
+noisy porous media images/640.png,0.3932,1209.2,1.19338765436e-12
+noisy porous media images/641.png,0.39269,1149.7,1.1346657180100001e-12
+noisy porous media images/642.png,0.39111,1233.9,1.2177646598700002e-12
+noisy porous media images/643.png,0.41127,1283.4,1.2666173632200001e-12
+noisy porous media images/644.png,0.40955,1272.1,1.25546512993e-12
+noisy porous media images/645.png,0.42169,1342.0,1.3244510686e-12
+noisy porous media images/646.png,0.41567,1295.0,1.2780656735e-12
+noisy porous media images/647.png,0.4245,1241.2,1.2249691999600002e-12
+noisy porous media images/648.png,0.42908,1334.5,1.31704914385e-12
+noisy porous media images/649.png,0.4301,1344.4,1.3268196845200003e-12
+noisy porous media images/650.png,0.42065,1379.4,1.3613620000200003e-12
+noisy porous media images/651.png,0.43806,1357.6,1.33984707208e-12
+noisy porous media images/652.png,0.4348,1343.1,1.32553668423e-12
+noisy porous media images/653.png,0.44092,1602.3,1.5813472035900001e-12
+noisy porous media images/654.png,0.4311,1484.9,1.4654824081700002e-12
+noisy porous media images/655.png,0.44772,1599.1,1.57818904903e-12
+noisy porous media images/656.png,0.43164,1539.4,1.5192697280200002e-12
+noisy porous media images/657.png,0.43102,1528.7,1.50870964871e-12
+noisy porous media images/658.png,0.43065,1539.4,1.5192697280200002e-12
+noisy porous media images/659.png,0.43233,1520.6,1.50071556998e-12
+noisy porous media images/660.png,0.42174,1427.2,1.4085369337600002e-12
+noisy porous media images/661.png,0.40835,1319.2,1.3019492173600002e-12
+noisy porous media images/662.png,0.45192,1481.1,1.46173209963e-12
+noisy porous media images/663.png,0.43962,1390.4,1.37221815632e-12
+noisy porous media images/664.png,0.44515,1420.1,1.40152977833e-12
+noisy porous media images/665.png,0.4346,1359.4,1.3416235340200002e-12
+noisy porous media images/666.png,0.4327,1316.8,1.29958060144e-12
+noisy porous media images/667.png,0.45571,1664.8,1.64302990984e-12
+noisy porous media images/668.png,0.45333,1657.9,1.6362201390700003e-12
+noisy porous media images/669.png,0.44769,1586.4,1.5656551231200002e-12
+noisy porous media images/670.png,0.4585,1761.1,1.7380706236300001e-12
+porous_media_images/671.png,0.43514,1542.5,1.52232919025e-12
+porous_media_images/672.png,0.44241,1599.6,1.57868251068e-12
+porous_media_images/673.png,0.40677,1642.7,1.6212189049100001e-12
+porous_media_images/674.png,0.39795,1391.9,1.37369854127e-12
+porous_media_images/675.png,0.40122,1361.4,1.3435973806200001e-12
+porous_media_images/676.png,0.41607,1604.1,1.58312366553e-12
+porous_media_images/677.png,0.37389,1052.9,1.0391315425700001e-12
+porous_media_images/678.png,0.42684,1654.7,1.6330619845100002e-12
+porous_media_images/679.png,0.45255,1854.3,1.83005187519e-12
+porous_media_images/680.png,0.47227,1982.1,1.95618067293e-12
+porous_media_images/681.png,0.45401,1717.6,1.69513946008e-12
+porous_media_images/682.png,0.45934,1782.7,1.7593881669100001e-12
+porous_media_images/683.png,0.45235,1763.3,1.74024185489e-12
+porous_media_images/684.png,0.46231,1848.1,1.82393295073e-12
+porous_media_images/685.png,0.44505,1761.7,1.7386627776100002e-12
+porous_media_images/686.png,0.44736,1788.6,1.76521101438e-12
+porous_media_images/687.png,0.43816,1700.7,1.6784604563100002e-12
+porous_media_images/688.png,0.42331,1573.6,1.55302250488e-12
+porous_media_images/689.png,0.42833,1667.0,1.6452011411e-12
+porous_media_images/690.png,0.4306,1611.0,1.5899334363e-12
+porous_media_images/691.png,0.46474,1902.7,1.87781896291e-12
+porous_media_images/692.png,0.46296,1826.8,1.8029114844400001e-12
+porous_media_images/693.png,0.3352,768.01,7.579669636330001e-13
+porous_media_images/694.png,0.34357,815.79,8.05122158907e-13
+porous_media_images/695.png,0.34248,831.64,8.20764893212e-13
+porous_media_images/696.png,0.35439,893.73,8.820429609090001e-13
+porous_media_images/697.png,0.35836,928.6,9.164569763800002e-13
+porous_media_images/698.png,0.35058,899.46,8.876980314180001e-13
+porous_media_images/699.png,0.34535,850.81,8.39684212873e-13
+porous_media_images/700.png,0.35775,959.53,9.46982514049e-13
+porous_media_images/701.png,0.44848,1865.8,1.84140149314e-12
+porous_media_images/702.png,0.44202,1921.6,1.89647181328e-12
+porous_media_images/703.png,0.42595,1861.2,1.8368616459600003e-12
+porous_media_images/704.png,0.41112,1628.2,1.6069085170600002e-12
+porous_media_images/705.png,0.42094,1853.1,1.82886756723e-12
+porous_media_images/706.png,0.40203,1611.7,1.5906242826100002e-12
+porous_media_images/707.png,0.38853,1629.3,1.6079941326900001e-12
+porous_media_images/708.png,0.43728,1723.4,1.7008636152200002e-12
+porous_media_images/709.png,0.44428,1774.8,1.75159147284e-12
+porous_media_images/710.png,0.42555,1563.8,1.54335065654e-12
+porous_media_images/711.png,0.43337,1628.7,1.60740197871e-12
+porous_media_images/712.png,0.42826,1675.5,1.6535899891500002e-12
+porous_media_images/713.png,0.41816,1437.8,1.41899832074e-12
+porous_media_images/714.png,0.4073,1549.5,1.52923765335e-12
+porous_media_images/715.png,0.39775,1558.3,1.53792257839e-12
+porous_media_images/716.png,0.40157,1353.8,1.33609676354e-12
+porous_media_images/717.png,0.46289,2066.7,2.03967438411e-12
+porous_media_images/718.png,0.45347,2067.9,2.0408586920700003e-12
+porous_media_images/719.png,0.44777,1832.1,1.80814217793e-12
+porous_media_images/720.png,0.4177,1649.4,1.6278312910200001e-12
+porous_media_images/721.png,0.4192,1621.8,1.60059220794e-12
+porous_media_images/722.png,0.40861,1628.8,1.60750067104e-12
+porous_media_images/723.png,0.3937,1356.9,1.33915622577e-12
+porous_media_images/724.png,0.40641,1527.6,1.50762403308e-12
+porous_media_images/725.png,0.41269,1666.1,1.64431291013e-12
+porous_media_images/726.png,0.37884,1384.4,1.3662966165200002e-12
+porous_media_images/727.png,0.48165,2229.3,2.2001481126900005e-12
+porous_media_images/728.png,0.4741,2197.0,2.1682704901000002e-12
+porous_media_images/729.png,0.46587,2123.0,2.0952381659000003e-12
+porous_media_images/730.png,0.47665,2218.8,2.1897854180400004e-12
+porous_media_images/731.png,0.46438,2136.9,2.10895639977e-12
+porous_media_images/732.png,0.47269,2199.6,2.17083649068e-12
+porous_media_images/733.png,0.44918,2053.1,2.02625222723e-12
+porous_media_images/734.png,0.43629,1911.4,1.88640519562e-12
+porous_media_images/735.png,0.44348,1988.0,1.9620035204e-12
+porous_media_images/736.png,0.39333,1537.6,1.51749326608e-12
+porous_media_images/737.png,0.38585,1523.1,1.50318287823e-12
+porous_media_images/738.png,0.38154,1483.3,1.46390333089e-12
+porous_media_images/739.png,0.3695,1401.7,1.3833703896100002e-12
+porous_media_images/740.png,0.35668,1260.2,1.2437207426600002e-12
+porous_media_images/741.png,0.37578,1414.8,1.39629908484e-12
+porous_media_images/742.png,0.43802,1711.9,1.6895139972700003e-12
+porous_media_images/743.png,0.44574,1841.7,1.8176166416100001e-12
+porous_media_images/744.png,0.49557,2128.0,2.1001727824e-12
+porous_media_images/745.png,0.47464,2051.0,2.0241796883e-12
+porous_media_images/746.png,0.47992,1912.9,1.8878855805700002e-12
+porous_media_images/747.png,0.4554,1752.1,1.72918831393e-12
+porous_media_images/748.png,0.47426,2066.5,2.03947699945e-12
+porous_media_images/749.png,0.46311,2010.9,1.9846040639700003e-12
+porous_media_images/750.png,0.44282,1786.4,1.7630397831200003e-12
+porous_media_images/751.png,0.42576,1666.3,1.64451029479e-12
+porous_media_images/752.png,0.43784,1892.7,1.86794972991e-12
+porous_media_images/753.png,0.42926,1668.0,1.6461880644000001e-12
+porous_media_images/754.png,0.41856,1535.3,1.5152233424900002e-12
+porous_media_images/755.png,0.41962,1617.3,1.59615105309e-12
+porous_media_images/756.png,0.48154,2274.0,2.2442635842e-12
+porous_media_images/757.png,0.47336,2219.6,2.19057495668e-12
+porous_media_images/758.png,0.49095,2430.2,2.39842100366e-12
+porous_media_images/759.png,0.48495,2223.5,2.1944239575500003e-12
+porous_media_images/760.png,0.46758,2093.2,2.06582785156e-12
+porous_media_images/761.png,0.46046,2236.7,2.20745134511e-12
+porous_media_images/762.png,0.44814,1779.7,1.7564273970100001e-12
+porous_media_images/763.png,0.43088,1591.4,1.5705897396200002e-12
+porous_media_images/764.png,0.43791,1681.5,1.6595115289500002e-12
+porous_media_images/765.png,0.41084,1486.6,1.46716017778e-12
+porous_media_images/766.png,0.41492,1673.3,1.65141875789e-12
+porous_media_images/767.png,0.38879,1343.5,1.3259314535500001e-12
+porous_media_images/768.png,0.39897,1721.7,1.6991858456100002e-12
+porous_media_images/769.png,0.38495,1455.6,1.43656555548e-12
+porous_media_images/770.png,0.36556,1072.0,1.0579817776e-12
+porous_media_images/771.png,0.4827,2484.7,2.45220832351e-12
+porous_media_images/772.png,0.49444,2585.1,2.55129542283e-12
+porous_media_images/773.png,0.47835,2487.1,2.4545769394300003e-12
+porous_media_images/774.png,0.46013,2241.3,2.21199119229e-12
+porous_media_images/775.png,0.44831,2034.2,2.00759937686e-12
+porous_media_images/776.png,0.45529,2282.5,2.25265243225e-12
+porous_media_images/777.png,0.43142,1906.6,1.8816679637800002e-12
+porous_media_images/778.png,0.41744,1873.4,1.84890211022e-12
+porous_media_images/779.png,0.43192,1987.8,1.9618061357400003e-12
+porous_media_images/780.png,0.40528,1769.1,1.7459660100300001e-12
+porous_media_images/781.png,0.39766,1722.9,1.7003701535700003e-12
+porous_media_images/782.png,0.38831,1752.6,1.72968177558e-12
+porous_media_images/783.png,0.47723,1999.4,1.9732544460200003e-12
+porous_media_images/784.png,0.48088,2069.5,2.04243776935e-12
+porous_media_images/785.png,0.4741,2041.7,2.01500130161e-12
+porous_media_images/786.png,0.46635,1921.8,1.89666919794e-12
+porous_media_images/787.png,0.45718,1995.6,1.9695041374800002e-12
+porous_media_images/788.png,0.46844,2038.8,2.0121392240400003e-12
+porous_media_images/789.png,0.44125,1809.7,1.7860350960100001e-12
+porous_media_images/790.png,0.49179,2365.5,2.33456706615e-12
+porous_media_images/791.png,0.37026,1282.6,1.26582782458e-12
+porous_media_images/792.png,0.38562,1155.8,1.14068595014e-12
+porous_media_images/793.png,0.36986,1289.1,1.27224282603e-12
+porous_media_images/794.png,0.51311,2651.7,2.61702451461e-12
+porous_media_images/795.png,0.50758,2579.6,2.54586734468e-12
+porous_media_images/796.png,0.50216,2509.8,2.4769800983400002e-12
+porous_media_images/797.png,0.494,2517.5,2.48457940775e-12
+porous_media_images/798.png,0.49533,2432.4,2.4005922349200003e-12
+porous_media_images/799.png,0.45264,1740.7,1.7179373883100002e-12
+porous_media_images/800.png,0.45169,1731.5,1.7088576939500001e-12
+porous_media_images/801.png,0.44145,1769.1,1.7459660100300001e-12
+porous_media_images/802.png,0.43357,1623.1,1.60187520823e-12
+porous_media_images/803.png,0.43336,1871.3,1.84682957129e-12
+porous_media_images/804.png,0.41479,1502.1,1.48245748893e-12
+porous_media_images/805.png,0.40666,1467.3,1.44811255809e-12
+porous_media_images/806.png,0.40358,1470.5,1.4512707126500001e-12
+porous_media_images/807.png,0.39644,1491.9,1.4723908712700001e-12
+porous_media_images/808.png,0.4318,1208.5,1.19269680805e-12
+porous_media_images/809.png,0.42222,1197.2,1.1815445747600001e-12
+porous_media_images/810.png,0.41215,1214.2,1.1983222708600002e-12
+porous_media_images/811.png,0.40602,1111.5,1.09696524795e-12
+porous_media_images/812.png,0.40387,1156.6,1.14147548878e-12
+porous_media_images/813.png,0.39589,1173.4,1.1580558002200002e-12
+porous_media_images/814.png,0.39363,1081.5,1.06735754895e-12
+porous_media_images/815.png,0.38526,996.95,9.839131839350002e-13
+porous_media_images/816.png,0.3696,1007.0,9.938317631e-13
+porous_media_images/817.png,0.37042,918.36,9.063508817880001e-13
+porous_media_images/818.png,0.36839,994.12,9.811201909960002e-13
+porous_media_images/819.png,0.35666,872.69,8.612780946770001e-13
+porous_media_images/820.png,0.35357,871.88,8.60478686804e-13
+porous_media_images/821.png,0.33993,863.88,8.525833004040001e-13
+porous_media_images/822.png,0.44979,1331.2,1.31379229696e-12
+porous_media_images/823.png,0.43716,1294.3,1.27737482719e-12
+porous_media_images/824.png,0.44186,1328.9,1.3115223733700002e-12
+porous_media_images/825.png,0.43863,1324.1,1.30678514153e-12
+porous_media_images/826.png,0.44196,1309.8,1.29267213834e-12
+porous_media_images/827.png,0.43782,1277.8,1.2610905927400001e-12
+porous_media_images/828.png,0.36539,1021.0,1.0076486893e-12
+porous_media_images/829.png,0.37023,1019.6,1.0062669966800001e-12
+porous_media_images/830.png,0.35583,985.9,9.730076814700001e-13
+porous_media_images/831.png,0.35902,1021.1,1.0077473816300002e-12
+porous_media_images/832.png,0.35188,897.9,8.8615843107e-13
+porous_media_images/833.png,0.3434,960.68,9.48117475844e-13
+porous_media_images/834.png,0.34342,909.61,8.977153029130001e-13
+porous_media_images/835.png,0.36191,946.27,9.33895911091e-13
+porous_media_images/836.png,0.36625,980.43,9.67609211019e-13
+porous_media_images/837.png,0.36108,939.12,9.26839409496e-13
+porous_media_images/838.png,0.36712,771.89,7.61796226037e-13
+porous_media_images/839.png,0.43174,925.95,9.138416296350001e-13
+porous_media_images/840.png,0.40719,1058.6,1.04475700538e-12
+porous_media_images/841.png,0.40381,948.38,9.35978319254e-13
+porous_media_images/842.png,0.39915,1007.6,9.9442391708e-13
+porous_media_images/843.png,0.38182,899.5,8.8773750835e-13
+porous_media_images/844.png,0.41053,1075.3,1.06123862449e-12
+porous_media_images/845.png,0.3988,899.01,8.872539159330001e-13
+porous_media_images/846.png,0.40248,901.1,8.8931658563e-13
+porous_media_images/847.png,0.40979,961.87,9.492919145710001e-13
+porous_media_images/848.png,0.40421,919.92,9.078904821360001e-13
+porous_media_images/849.png,0.40102,1082.0,1.0678510106e-12
+porous_media_images/850.png,0.38432,792.26,7.81899853658e-13
+porous_media_images/851.png,0.41634,1099.9,1.0855169376700002e-12
+porous_media_images/852.png,0.40386,1082.1,1.0679497029299999e-12
+porous_media_images/853.png,0.42212,1235.1,1.21894896783e-12
+porous_media_images/854.png,0.41823,1212.2,1.19634842426e-12
+porous_media_images/855.png,0.42138,1176.6,1.16121395478e-12
+porous_media_images/856.png,0.42526,1222.0,1.2060202726000002e-12
+porous_media_images/857.png,0.43142,1277.7,1.2609919004100002e-12
+porous_media_images/858.png,0.41837,1207.6,1.19180857708e-12
+porous_media_images/859.png,0.43188,1290.2,1.27332844166e-12
+porous_media_images/860.png,0.44324,1371.2,1.35326922896e-12
+porous_media_images/861.png,0.3828,827.58,8.167579846140001e-13
+porous_media_images/862.png,0.43502,1247.9,1.2315815860700002e-12
+porous_media_images/863.png,0.38583,803.11,7.926079714630001e-13
+porous_media_images/864.png,0.40061,884.4,8.7283496652e-13
+porous_media_images/865.png,0.31999,467.46,4.61347165818e-13
+porous_media_images/866.png,0.31683,567.24,5.598223726920001e-13
+porous_media_images/867.png,0.33862,521.08,5.142659931640001e-13
+porous_media_images/868.png,0.33068,534.9,5.2790527317e-13
+porous_media_images/869.png,0.33512,527.73,5.20829033109e-13
+porous_media_images/870.png,0.35113,926.64,9.14522606712e-13
+porous_media_images/871.png,0.34157,527.62,5.20720471546e-13
+porous_media_images/872.png,0.35436,566.03,5.58628195499e-13
+porous_media_images/873.png,0.34539,547.88,5.407155376040001e-13
+porous_media_images/874.png,0.3638,670.38,6.616136418540001e-13
+porous_media_images/875.png,0.36398,637.02,6.28689880566e-13
+porous_media_images/876.png,0.40809,891.24,8.79585521892e-13
+porous_media_images/877.png,0.35735,602.39,5.94512726687e-13
+porous_media_images/878.png,0.39912,774.31,7.64184580423e-13
+porous_media_images/879.png,0.41364,835.26,8.24337555558e-13
+porous_media_images/880.png,0.39571,850.89,8.39763166737e-13
+porous_media_images/881.png,0.38324,791.23,7.808833226590001e-13
+porous_media_images/882.png,0.39349,828.74,8.179028156420001e-13
+porous_media_images/883.png,0.3763,729.46,7.19921070418e-13
+porous_media_images/884.png,0.36717,683.25,6.74315344725e-13
+porous_media_images/885.png,0.35116,683.64,6.74700244812e-13
+porous_media_images/886.png,0.43698,996.66,9.83626976178e-13
+porous_media_images/887.png,0.42344,925.7,9.1359489881e-13
+porous_media_images/888.png,0.37211,682.29,6.73367898357e-13
+porous_media_images/889.png,0.4238,890.84,8.791907525720001e-13
+porous_media_images/890.png,0.40726,897.8,8.8605973874e-13
+porous_media_images/891.png,0.41539,873.69,8.622650179770001e-13
+porous_media_images/892.png,0.36526,612.19,6.041845750270001e-13
+porous_media_images/893.png,0.32257,734.31,7.24707648423e-13
+porous_media_images/894.png,0.35764,795.17,7.84771800461e-13
+porous_media_images/895.png,0.34646,670.79,6.62018280407e-13
+porous_media_images/896.png,0.3725,871.55,8.60153002115e-13
+porous_media_images/897.png,0.37143,895.11,8.834049150630001e-13
+porous_media_images/898.png,0.36956,920.57,9.085319822810002e-13
+porous_media_images/899.png,0.37969,906.62,8.947644022460001e-13
+porous_media_images/900.png,0.38794,963.75,9.511473303750001e-13
+porous_media_images/901.png,0.39448,922.2,9.101406672600001e-13
+porous_media_images/902.png,0.40938,1047.0,1.0333086951e-12
+porous_media_images/903.png,0.41182,1065.2,1.0512706991600001e-12
+porous_media_images/904.png,0.40881,1042.8,1.02916361724e-12
+porous_media_images/905.png,0.41285,1154.8,1.13969902684e-12
+porous_media_images/906.png,0.35666,712.3,7.0298546659e-13
+porous_media_images/907.png,0.41326,1093.1,1.07880585923e-12
+porous_media_images/908.png,0.44189,1261.3,1.24480635829e-12
+porous_media_images/909.png,0.42465,1292.2,1.2753022882600002e-12
+porous_media_images/910.png,0.40897,1226.8,1.2107575044400001e-12
+porous_media_images/911.png,0.40949,1270.1,1.25349128333e-12
+porous_media_images/912.png,0.38942,1149.7,1.1346657180100001e-12
+porous_media_images/913.png,0.39626,1130.0,1.1152233290000001e-12
+porous_media_images/914.png,0.39169,1156.0,1.1408833348e-12
+porous_media_images/915.png,0.39827,1153.1,1.13802125723e-12
+porous_media_images/916.png,0.36796,990.61,9.77656090213e-13
+porous_media_images/917.png,0.36006,716.9,7.075253137700001e-13
+porous_media_images/918.png,0.41785,1111.3,1.09676786329e-12
+porous_media_images/919.png,0.41547,1073.0,1.0589687009000001e-12
+porous_media_images/920.png,0.41664,1390.2,1.37202077166e-12
+porous_media_images/921.png,0.43305,1382.8,1.3647175392400001e-12
+porous_media_images/922.png,0.434,900.22,8.884480931260001e-13
+porous_media_images/923.png,0.44304,1483.2,1.4638046385600002e-12
+porous_media_images/924.png,0.45064,1384.2,1.3660992318600002e-12
+porous_media_images/925.png,0.47838,1628.3,1.60700720939e-12
+porous_media_images/926.png,0.46433,1569.8,1.54927219634e-12
+porous_media_images/927.png,0.39406,1008.5,9.9531214805e-13
+porous_media_images/928.png,0.40352,1126.9,1.1121638667700002e-12
+porous_media_images/929.png,0.45093,1083.3,1.06913401089e-12
+porous_media_images/930.png,0.40531,1257.1,1.24066128043e-12
+porous_media_images/931.png,0.41745,1237.8,1.22161366074e-12
+porous_media_images/932.png,0.42024,1259.3,1.24283251169e-12
+porous_media_images/933.png,0.42868,1694.0,1.6718480702e-12
+porous_media_images/934.png,0.43378,1310.1,1.29296821533e-12
+porous_media_images/935.png,0.43231,1198.3,1.1826301903900001e-12
+porous_media_images/936.png,0.4536,1410.3,1.39185792999e-12
+porous_media_images/937.png,0.46708,1496.5,1.47693071845e-12
+porous_media_images/938.png,0.4728,1587.6,1.56683943108e-12
+porous_media_images/939.png,0.47266,1564.2,1.5437454258600002e-12
+porous_media_images/940.png,0.44006,1010.0,9.96792533e-13
+porous_media_images/941.png,0.47193,1494.3,1.4747594871900001e-12
+porous_media_images/942.png,0.44257,1003.9,9.9077230087e-13
+porous_media_images/943.png,0.39173,895.41,8.83700992053e-13
+porous_media_images/944.png,0.42924,987.17,9.742610740610001e-13
+porous_media_images/945.png,0.38944,864.62,8.53313623646e-13
+porous_media_images/946.png,0.37814,845.03,8.33979796199e-13
+porous_media_images/947.png,0.37824,843.64,8.32607972812e-13
+porous_media_images/948.png,0.36531,821.05,8.10313375465e-13
+porous_media_images/949.png,0.42858,1174.0,1.1586479542e-12
+porous_media_images/950.png,0.42778,1148.4,1.1333827177200001e-12
+porous_media_images/951.png,0.42976,1166.2,1.15094995246e-12
+porous_media_images/952.png,0.41294,1098.3,1.08393786039e-12
+porous_media_images/953.png,0.42853,1245.2,1.2289168931600001e-12
+porous_media_images/954.png,0.41547,1059.9,1.0460400056700002e-12
+porous_media_images/955.png,0.36096,808.94,7.983617343020001e-13
+porous_media_images/956.png,0.40711,1666.7,1.6449050641100001e-12
+porous_media_images/957.png,0.43914,1898.4,1.8735751927200002e-12
+porous_media_images/958.png,0.47864,2159.0,2.1307674047e-12
+porous_media_images/959.png,0.44924,2097.8,2.0703676987400004e-12
+porous_media_images/960.png,0.4661,2158.2,2.12997786606e-12
+porous_media_images/961.png,0.48087,2165.9,2.1375771754700004e-12
+porous_media_images/962.png,0.46693,1833.1,1.80912910123e-12
+porous_media_images/963.png,0.46999,1734.1,1.7114236945300001e-12
+porous_media_images/964.png,0.46219,1650.4,1.6288182143200002e-12
+porous_media_images/965.png,0.4648,1763.5,1.7404392395500001e-12
+porous_media_images/966.png,0.46967,1719.6,1.69711330668e-12
+porous_media_images/967.png,0.47793,1787.6,1.76422409108e-12
+porous_media_images/968.png,0.48548,1847.5,1.82334079675e-12
+porous_media_images/969.png,0.48571,1877.4,1.85284980342e-12
+porous_media_images/970.png,0.44655,2460.2,2.42802870266e-12
+porous_media_images/971.png,0.45333,2567.2,2.53362949576e-12
+porous_media_images/972.png,0.39001,1228.4,1.2123365817200003e-12
+porous_media_images/973.png,0.40667,1353.1,1.33540591723e-12
+porous_media_images/974.png,0.38902,1284.0,1.2672095172000002e-12
+porous_media_images/975.png,0.39521,1319.4,1.3021466020200002e-12
+porous_media_images/976.png,0.43076,1572.0,1.5514434276000002e-12
+porous_media_images/977.png,0.43023,1516.0,1.4961757228e-12
+porous_media_images/978.png,0.4238,1483.8,1.46439679254e-12
+porous_media_images/979.png,0.38103,1178.3,1.16289172439e-12
+porous_media_images/980.png,0.3684,1097.4,1.0830496294200001e-12
+porous_media_images/981.png,0.42932,1575.8,1.55519373614e-12
+porous_media_images/982.png,0.42004,1493.6,1.47406864088e-12
+porous_media_images/983.png,0.40707,1424.7,1.4060696255100001e-12
+porous_media_images/984.png,0.41485,1401.9,1.3835677742700002e-12
+porous_media_images/985.png,0.40759,1961.0,1.9353565913000003e-12
+porous_media_images/986.png,0.39098,1641.5,1.62003459695e-12
+porous_media_images/987.png,0.40009,1632.9,1.6115470565700002e-12
+porous_media_images/988.png,0.38016,1403.6,1.38524554388e-12
+porous_media_images/989.png,0.40795,1553.4,1.5330866542200002e-12
+porous_media_images/990.png,0.41728,1592.6,1.5717740475800001e-12
+porous_media_images/991.png,0.41508,1585.8,1.56506296914e-12
+porous_media_images/992.png,0.47476,2073.6,2.04648415488e-12
+porous_media_images/993.png,0.47036,1929.9,1.90466327667e-12
+porous_media_images/994.png,0.46412,1999.5,1.97335313835e-12
+porous_media_images/995.png,0.46092,1924.7,1.89953127551e-12
+porous_media_images/996.png,0.45398,1847.9,1.8237355660700004e-12
+porous_media_images/997.png,0.45279,1867.4,1.84298057042e-12
+porous_media_images/998.png,0.44579,1809.7,1.7860350960100001e-12
+porous_media_images/999.png,0.44435,1849.8,1.82561072034e-12
+porous_media_images/1000.png,0.44307,1792.2,1.7687639382600001e-12

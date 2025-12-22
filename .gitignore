@@ -213,3 +213,6 @@ results/
 *.obj
 *.glb
 *.ply
+
+# external datasets
+data/external/

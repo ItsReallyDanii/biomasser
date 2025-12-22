@@ -1,0 +1,22 @@
+{
+  "n_total": 1000,
+  "n_train": 800,
+  "n_test": 200,
+  "features": [
+    "porosity",
+    "edge_density",
+    "anisotropy",
+    "laplace_cond"
+  ],
+  "ridge_alpha": 1.0,
+  "r2_log10k": 0.004971088534814316,
+  "mae_log10k": 0.25706613276568846,
+  "mape_k_percent": 86.49062748350003,
+  "coef": {
+    "porosity": -0.37842360064795516,
+    "edge_density": 0.8099987587793472,
+    "anisotropy": 0.349820529386544,
+    "laplace_cond": 0.007177336794851242
+  },
+  "intercept": -12.508575438545469
+}
