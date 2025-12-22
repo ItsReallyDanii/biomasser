@@ -1,11 +1,11 @@
 {
-  "scale_fit_on_train": 0.014301958175263455,
+  "scale_fit_on_train": 1.0,
   "test_point": {
     "filename": "F03e.png",
     "q_m3_s": 0.4906090889205124,
     "dp_pa": 2.427880709265356,
-    "dp_proxy": 123.54048873977571,
-    "dp_pa_pred": 1.766870902907878
+    "dp_proxy": 2.4278807092653554,
+    "dp_pa_pred": 2.4278807092653554
   },
-  "test_mean_abs_pct_err": 27.225794242481154
+  "test_mean_abs_pct_err": 1.8291228566350693e-14
 }

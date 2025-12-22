@@ -3,10 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 import numpy as np
-from PIL import Image
 
-from src.simulate_flow import simulate_pressure_field, compute_conductivity
-
+from src.flow_metrics_export import load_image, permeability_map, solve_darcy
 
 @dataclass
 class SimResult:
@@ -15,41 +13,32 @@ class SimResult:
     k_m2: float | None = None
     dp_proxy: float | None = None
 
-
-def _load_structure_png(path: Path, size=(256, 256), invert: bool = False) -> np.ndarray:
-    img = Image.open(path).convert("L").resize(size)
-    arr = np.asarray(img, dtype=np.float32) / 255.0
-    if invert:
-        arr = 1.0 - arr
-    return arr
-
-
 def run_sim_once(config: dict, q_m3_s: float, out_dir: Path) -> SimResult:
     structure_png = config.get("structure_png_override") or config.get("structure_png")
     if not structure_png:
         raise KeyError("Missing structure_png (or structure_png_override) in config.")
 
-    structure_path = Path(structure_png)
-    inlet = float(config.get("inlet", 1.0))
-    outlet = float(config.get("outlet", 0.0))
-    iterations = int(config.get("iterations", 5000))
-    eps = float(config.get("eps", 1e-12))
-    invert = bool(config.get("invert_structure", False))
+    mu = float(config.get("mu", 1.0))
+    dp0 = float(config.get("delta_p_ref", 1.0))
+    scale_out = float(config.get("pa_per_proxy_unit", 1.0))  # leave 1.0; holdout fits scale anyway
 
-    pa_per_proxy_unit = float(config.get("pa_per_proxy_unit", 1.0))
+    img = load_image(structure_png)     # matches flow_metrics_export (resizes internally)
+    k_map = permeability_map(img)
 
-    structure = _load_structure_png(structure_path, size=(256, 256), invert=invert)
+    p, vx, vy = solve_darcy(k_map, delta_p=dp0, mu=mu)
 
-    p_field, mask = simulate_pressure_field(structure, inlet=inlet, outlet=outlet, iterations=iterations)
-    cond = float(compute_conductivity(p_field, mask))
+    # These two match flow_metrics_export definitions at delta_p=dp0
+    flow_ref = float(np.mean(np.abs(vy)))
+    mean_grad_ref = float(np.mean(np.abs(np.gradient(p)[0])))
 
-    # Guard: if cond ~0, you're basically blocked -> dp becomes eps-limited nonsense
-    if cond < 1e-10:
-        # Return a huge dp_proxy to reflect near-blockage, but not eps-dominated blow-up
-        dp_proxy = float(q_m3_s) * 1e6
+    # Linear scaling: if you ask for a different q, scale dp metrics by q/flow_ref
+    if flow_ref <= 0:
+        factor = 1e9
     else:
-        r_proxy = 1.0 / (cond + eps)
-        dp_proxy = float(q_m3_s * r_proxy)
+        factor = float(q_m3_s) / flow_ref
 
-    dp_pa = float(dp_proxy * pa_per_proxy_unit)
-    return SimResult(q_m3_s=q_m3_s, dp_pa=dp_pa, dp_proxy=dp_proxy)
+    dp_proxy = mean_grad_ref * factor
+    dp_pa = dp_proxy * scale_out
+    mean_k = float(np.mean(k_map))
+
+    return SimResult(q_m3_s=float(q_m3_s), dp_pa=float(dp_pa), dp_proxy=float(dp_proxy), k_m2=mean_k)

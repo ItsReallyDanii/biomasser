@@ -1,10 +1,4 @@
 structure_png: data/generated_microtubes/synthetic_072.png
-
-inlet: 1.0
-outlet: 0.0
-iterations: 5000
-eps: 1.0e-12
-
-pa_per_proxy_unit: 1.995857e+10
-
-invert_structure: true
+mu: 1.0
+delta_p_ref: 1.0
+pa_per_proxy_unit: 1.0
