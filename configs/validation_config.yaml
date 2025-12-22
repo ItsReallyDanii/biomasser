@@ -6,3 +6,5 @@ iterations: 5000
 eps: 1.0e-12
 
 pa_per_proxy_unit: 1.995857e+10
+
+invert_structure: true
